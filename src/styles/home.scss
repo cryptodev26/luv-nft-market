@@ -75,7 +75,10 @@
         letter-spacing: 1.5;
       }
 
-      button {
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 192px;
         height: 52px;
         color: #000;

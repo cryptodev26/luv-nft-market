@@ -6,8 +6,6 @@
       </div>
       <div class="menu">
         <ul>
-          <li><router-link to="/">CREATE</router-link></li>
-          <li><router-link to="/">MARKETPLACE</router-link></li>
           <li><router-link to="/">CONTACT</router-link></li>
         </ul>
       </div>
@@ -18,8 +16,11 @@
         <img src="images/home/title.svg" class="title" />
         <p class="description">
           Tribe owned NFT Marketplace to create, share, sell and buy digital collectibles.
+          No ⛽️ gas fee gang.
         </p>
-        <button>START CREATING</button>
+        <a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2"
+          >SIGN UP</a
+        >
       </div>
       <div class="right">
         <img src="images/home/1.png" />
@@ -66,7 +67,7 @@
     <div class="footer-menu">
       <div>
         <ul>
-          <li><a href="https://discord.gg/cGp8T43b">TRIBE</a></li>
+          <li><a href="https://t.me/luvnft">Telegram</a></li>
           <li><a href="https://hahz@blkluv.org">CONTACT</a></li>
         </ul>
       </div>
@@ -75,12 +76,14 @@
       </div>
       <div>
         <ul>
-          <li><a href="https://instagram.com/luvnft">INSTAGRAM</a></li>
+          <li style="margin-right: 30px">
+            <a href="https://instagram.com/luvnft">INSTAGRAM</a>
+          </li>
           <li><a href="https://twitter.com/luvnft">TWITTER</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer">© LUV NFT, Inc. 2021. Do what you LUV for a living</div>
+    <div class="footer">© LUV NFT 💛, Inc. 2021. Do what you LUV for a living</div>
   </div>
 </template>
 
@@ -126,7 +129,7 @@ export default {
           title: "A TRIBE OF CREATORS",
           avatar: "images/home/about-3.png",
           description:
-            "Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us have pooled our crypto money together to build our future, blockchain by blockchain.",
+            "Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us will unite to invest in each other to build our future, blockchain by blockchain.",
         },
       ],
     };
