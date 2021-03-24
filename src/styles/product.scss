@@ -1,0 +1,146 @@
+.product {
+  color: #333;
+  & > .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 16px 80px;
+    border-bottom: 1px solid #ddd;
+
+    .left {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        padding: 8px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 28px;
+          height: 28px;
+        }
+      }
+
+      .menu {
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          margin: 0 15px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .right {
+      .actions {
+        display: flex;
+
+        button, select {
+          margin: 0 5px;
+          border-radius: 5px;
+          background: #FFF;
+          cursor: pointer;
+          outline: none;
+          border: 1px solid #ddd;
+          padding: 10px 20px;
+          font: {
+            size: 16px;
+          }
+        }
+        
+        & button:last-child {
+          color: #3297DB;
+          font-weight: 900;
+          border-color: #3297DB;
+        }
+      }
+    }
+  }
+
+  & > .body {
+    display: flex;
+    height: calc(100vh - 80px);
+
+    .left {
+      padding: 80px;
+      border-right: 1px solid #DDD;
+
+      img {
+        width: 100%;
+        height: 650px;
+      }
+    }
+
+    .right {
+      padding: 20px;
+      width: 450px;
+      flex-shrink: 0;
+      position: relative;
+
+      .item {
+        .header {
+          font: {
+            size: 30px;
+            weight: 700;
+          }
+          padding: 20px 0;
+        }
+
+        .body {
+          select {
+            border-radius: 5px;
+            width: 100%;
+            height: 40px;
+            background: #FFF;
+            font-size: 16px;
+          }
+
+          .title {
+            font: {
+              size: 20px;
+              weight: 700;
+            }
+          }
+
+          p {
+            overflow-wrap: anywhere;
+          }
+
+          ul {
+            li {
+              color: #d32e79;
+              list-style-type: decimal;
+            }
+          }
+        }
+      }
+
+      .footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        button {
+          cursor: pointer;
+          outline: none;
+          width: 100%;
+          height: 50px;
+          background: none;
+          border: 1px solid #DDD;
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
