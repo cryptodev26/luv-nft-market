@@ -273,7 +273,7 @@
 
       iframe {
         border: none;
-        height: 350px;
+        height: 350px !important;
         form {
           padding: 10px
         }
@@ -453,6 +453,14 @@
         align-items: center;
         width: 100%;
         padding-left: 0;
+
+        iframe {
+          border: none;
+          height: 550px !important;
+          form {
+            padding: 10px
+          }
+        }
       }
     }
 
