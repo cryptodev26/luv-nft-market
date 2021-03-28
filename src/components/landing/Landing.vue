@@ -62,7 +62,7 @@
         </p>
       </div>
       <div class="right">
-        <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" />
+        <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" />
         <!-- <img src="images/home/contact-form-title.svg" class="title" />
         <input type="text" />
         <button type="button">Register</button> -->
