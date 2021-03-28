@@ -149,6 +149,7 @@
           font: {
             size: 33px;
             weight: 900;
+            family: 'Archivo', sans-serif;
           }
         }
 
@@ -197,6 +198,7 @@
           font: {
             size: 33px;
             weight: 900;
+            family: 'Archivo', sans-serif;
           }
           line-height: 36px;
           text-align: center;
@@ -349,7 +351,7 @@
     }
 
     .banner {
-      flex-direction: column;
+      flex-direction: column-reverse;
       padding: 50px 20px;
 
       .left {
