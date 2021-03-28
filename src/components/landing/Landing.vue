@@ -2,14 +2,18 @@
   <div class="home-container">
     <div class="header">
       <div class="logo">
-        <img src="images/logo.svg" />
+        <a href="https://blkluv.org">
+          <img src="images/logo.svg" alt="logo">
+        </a>
       </div>
       <div class="menu">
         <ul>
-          <li><router-link to="/">CONTACT</router-link></li>
+          <li>
+            <a href="mailto:info@luvnft.com">CONTACT</a>
+          </li>
         </ul>
       </div>
-      <button class="hamburger"><img src="images/home/hamburger.svg" /></button>
+      <a href="mailto:info@luvnft.com" class="hamburger"><img src="images/home/hamburger.svg" /></a>
     </div>
     <div class="banner">
       <div class="left">
@@ -58,7 +62,7 @@
         </p>
       </div>
       <div class="right">
-        <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" />
+        <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" />
         <!-- <img src="images/home/contact-form-title.svg" class="title" />
         <input type="text" />
         <button type="button">Register</button> -->
@@ -67,12 +71,14 @@
     <div class="footer-menu">
       <div>
         <ul>
-          <li><a href="https://t.me/luvnft">Telegram</a></li>
+          <li><a href="https://t.me/luvnft">TELEGRAM</a></li>
           <li><a href="https://hahz@blkluv.org">CONTACT</a></li>
         </ul>
       </div>
       <div class="logo">
-        <img src="images/home/footer-logo.svg" />
+        <a href="https://blkluv.org">
+          <img src="images/home/footer-logo.svg" alt="logo">
+        </a>
       </div>
       <div>
         <ul>

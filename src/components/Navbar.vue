@@ -144,7 +144,7 @@ export default class NavbarMenu extends Vue {
   font-weight: bold;
 }
 a:hover {
-  color: black !important;
+  color: #beef00 !important;
 }
 .navbar-dropdown {
   background-color: black;
