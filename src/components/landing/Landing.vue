@@ -23,7 +23,7 @@
             <li><a href="https://twitter.com/luvnft">TWITTER</a></li>
             <li><a href="https://t.me/luvnft">TELEGRAM</a></li>
             <li><a href="https://instagram.com/luvnft">INSTAGRAM</a></li>
-            <li><a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2">SIGN UP EMAIL</a></li>
+            <li><a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2">EMAIL SIGN UP</a></li>
             <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPZv_yzsdJXxhegVP6_JpnhGeWbD8_ac2DCMddt4vm8DYqeQ/viewform">CREATORS APPLY </a></li>
           </ul>
         </div>
@@ -69,7 +69,7 @@
     </div>
     <div class="contact">
       <div class="left">
-        <img src="images/home/contact-title.svg" class="title" />
+        <p class="title lunch">LAUNCH 4/21</p>
         <p class="description">
           We partner with top brands, artists, athletes, and creators to bring
           dope drops on-blockchain. Apply
@@ -77,7 +77,7 @@
         </p>
       </div>
       <div class="right">
-        <img src="images/home/contact-email.png" class="title contact-email" />
+        <img src="images/home/rocket.png" class="title contact-email" />
         <!-- <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" /> -->
         <!-- <img src="images/home/contact-form-title.svg" class="title" />
         <input type="text" />

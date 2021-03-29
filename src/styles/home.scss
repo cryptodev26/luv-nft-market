@@ -246,7 +246,15 @@
       padding-right: 60px;
 
       .title {
-        margin-bottom: 30px;
+        color: #fff;
+        font: {
+          size: 75px;
+          weight: 900;
+          family: 'Archivo black', sans-serif;
+        }
+        white-space: nowrap;
+        line-height: 90px;
+        text-align: left;
       }
       
       .description {
@@ -282,7 +290,7 @@
       .title {
         margin-bottom: 32px;
         &.contact-email {
-          width: 588px;
+          width: 450px;
           max-width: 100%;
         }
       }
@@ -444,7 +452,15 @@
         align-items: center;
 
         .title {
-          max-width: 100%;
+          color: #fff;
+          font: {
+            size: 42px;
+            weight: 900;
+            family: 'Archivo black', sans-serif;
+          }
+          white-space: nowrap;
+          line-height: 56px;
+          text-align: left;
         }
 
         .description {
