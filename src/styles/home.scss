@@ -281,6 +281,10 @@
 
       .title {
         margin-bottom: 32px;
+        &.contact-email {
+          width: 588px;
+          max-width: 100%;
+        }
       }
 
       input {

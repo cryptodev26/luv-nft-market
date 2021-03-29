@@ -77,7 +77,7 @@
         </p>
       </div>
       <div class="right">
-        <img src="images/home/contact-email.png" class="title" />
+        <img src="images/home/contact-email.png" class="title contact-email" />
         <!-- <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" /> -->
         <!-- <img src="images/home/contact-form-title.svg" class="title" />
         <input type="text" />
