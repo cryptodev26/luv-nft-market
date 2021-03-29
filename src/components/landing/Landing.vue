@@ -23,7 +23,7 @@
             <li><a href="https://twitter.com/luvnft">TWITTER</a></li>
             <li><a href="https://t.me/luvnft">TELEGRAM</a></li>
             <li><a href="https://instagram.com/luvnft">INSTAGRAM</a></li>
-            <li><a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2">SIGN UP EMAIL</a></li>
+            <li><a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2">EMAIL SIGN UP</a></li>
             <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPZv_yzsdJXxhegVP6_JpnhGeWbD8_ac2DCMddt4vm8DYqeQ/viewform">CREATORS APPLY </a></li>
           </ul>
         </div>
