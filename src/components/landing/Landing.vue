@@ -3,7 +3,7 @@
     <div class="header">
       <div class="logo">
         <a href="https://blkluv.org">
-          <img src="images/logo.svg" alt="logo">
+          <img src="images/logo.svg" alt="logo" />
         </a>
       </div>
       <div class="menu">
@@ -13,14 +13,28 @@
           </li>
         </ul>
       </div>
-      <a href="mailto:info@luvnft.com" class="hamburger"><img src="images/home/hamburger.svg" /></a>
+      <div class="hamburger">
+        <img src="images/home/hamburger.svg" @click="isModalActive = true" />
+      </div>
+      <b-modal v-model="isModalActive">
+        <div class="header-menu">
+          <ul>
+            <li><a href="mailto:info@luvnft.com">CONTACT</a></li>
+            <li><a href="https://twitter.com/luvnft">TWITTER</a></li>
+            <li><a href="https://t.me/luvnft">TELEGRAM</a></li>
+            <li><a href="https://instagram.com/luvnft">INSTAGRAM</a></li>
+            <li><a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2">SIGN UP EMAIL</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPZv_yzsdJXxhegVP6_JpnhGeWbD8_ac2DCMddt4vm8DYqeQ/viewform">CREATORS APPLY </a></li>
+          </ul>
+        </div>
+      </b-modal>
     </div>
     <div class="banner">
       <div class="left">
         <img src="images/home/title.svg" class="title" />
         <p class="description">
-          Tribe owned NFT Marketplace to create, share, sell and buy digital collectibles.
-          No ⛽️ gas fee gang.
+          Tribe owned NFT Marketplace to create, share, sell and buy digital
+          collectibles. No ⛽️ gas fee gang.
         </p>
         <a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2"
           >SIGN UP</a
@@ -57,12 +71,14 @@
       <div class="left">
         <img src="images/home/contact-title.svg" class="title" />
         <p class="description">
-          We partner with top brands, artists, athletes, and creators to bring dope drops
-          on-blockchain. Apply <a href="https://forms.gle/13Qi1r2EBJaoc39T8">here</a>.
+          We partner with top brands, artists, athletes, and creators to bring
+          dope drops on-blockchain. Apply
+          <a href="https://forms.gle/13Qi1r2EBJaoc39T8">here</a>.
         </p>
       </div>
       <div class="right">
-        <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" />
+        <img src="images/home/contact-email.png" class="title contact-email" />
+        <!-- <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" /> -->
         <!-- <img src="images/home/contact-form-title.svg" class="title" />
         <input type="text" />
         <button type="button">Register</button> -->
@@ -77,7 +93,7 @@
       </div>
       <div class="logo">
         <a href="https://blkluv.org">
-          <img src="images/home/footer-logo.svg" alt="logo">
+          <img src="images/home/footer-logo.svg" alt="logo" />
         </a>
       </div>
       <div>
@@ -89,7 +105,9 @@
         </ul>
       </div>
     </div>
-    <div class="footer">© LUV NFT 💛, Inc. 2021. Do what you LUV for a living</div>
+    <div class="footer">
+      © LUV NFT 💛, Inc. 2021. Do what you LUV for a living
+    </div>
   </div>
 </template>
 
@@ -98,6 +116,7 @@ export default {
   name: "Home",
   data() {
     return {
+      isModalActive: false,
       whyUs: [
         {
           title: "GO DIGITAL",
