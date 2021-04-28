@@ -6423,7 +6423,9 @@ figcaption {
   width: 100%;
   height: 2px;
   margin-top: 8px;
-  background-color: rgba(255, 255, 255, 0.24);
+  /* background-color: rgba(255, 255, 255, 0.24); */
+  background-image: linear-gradient(90deg, #beef00, #fe019a);
+
 }
 
 .underline {
@@ -6436,7 +6438,7 @@ figcaption {
     from(#edb8ff),
     to(#6148ff)
   );
-  background-image: linear-gradient(90deg, #edb8ff, #6148ff);
+  background-image: linear-gradient(90deg, #beef00, #fe019a);
 }
 
 .link-wrapper {
