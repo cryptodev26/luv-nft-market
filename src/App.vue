@@ -3,7 +3,7 @@
     <!-- <div class="container is-max-desktop">
       <Navbar v-if="isNavbarVisible" />
     </div> -->
-    <router-view id="routerview" style="margin-top: 80px" />
+    <router-view />
   </div>
 </template>
 

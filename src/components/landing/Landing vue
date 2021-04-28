@@ -1,6 +1,5 @@
 <template>
   <div class="page-wrapper">
-      <div class="back-highlight-1"></div>
       <div
         data-collapse="medium"
         data-animation="default"
@@ -11,9 +10,9 @@
       >
         <div class="container-header">
           <div class="split-content header-left">
-            <a href="/" aria-current="page" class="brand-logo w-nav-brand w--current">
+            <a href="index.html" aria-current="page" class="brand-logo w-nav-brand w--current">
               <img
-                src="@/assets/logo.png"
+                src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a947c2d662438d332bb78_logo-nft-webflow-template.png"
                 alt=""
                 class="header-logo"
               />
@@ -149,7 +148,7 @@
                   class="w-commerce-commercecartwrapper cart"
                 >
                   <a
-                    href="/#"
+                    href="index.html#"
                     data-node-type="commerce-cart-open-link"
                     class="w-commerce-commercecartopenlink cart-button w-inline-block"
                   >
@@ -175,7 +174,7 @@
                       <div class="w-commerce-commercecartheader cart-header">
                         <h4 class="w-commerce-commercecartheading cart-title">Your Cart</h4>
                         <a
-                          href="/#"
+                          href="index.html#"
                           data-node-type="commerce-cart-close-link"
                           class="w-commerce-commercecartcloselink close-button-cart w-inline-block"
                         ></a>
@@ -200,7 +199,7 @@
                             <div class="w-commerce-commercecartitem">
                               <img
                                 data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D"
-                                src="/"
+                                src="index.html"
                                 alt=""
                                 class="w-commerce-commercecartitemimage cart-product-image w-dyn-bind-empty"
                               />
@@ -239,7 +238,7 @@
                                   </li>
                                 </ul>
                                 <a
-                                  href="/#"
+                                  href="index.html#"
                                   data-wf-bindings="%5B%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
                                   class="cart-remove w-inline-block"
                                   data-wf-cart-action="remove-item"
@@ -400,16 +399,16 @@
             <nav role="navigation" class="nav-menu w-nav-menu">
               <ul role="list" class="header-navigation">
                 <li class="nav-item-wrapper">
-                  <a href="/" aria-current="page" class="nav-link w--current">HOME</a>
+                  <a href="index.html" aria-current="page" class="nav-link w--current">HOME</a>
                 </li>
                 <li class="nav-item-wrapper">
-                  <a href="/rmrk/mint" class="nav-link">MARKET</a>
+                  <a href="index.html#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item-wrapper">
-                  <a href="/rmrk/gallery" class="nav-link">GALLERY</a>
+                  <a href="https://nfttemplate.webflow.io/store" class="nav-link">Store</a>
                 </li>
                 <li class="nav-item-wrapper">
-                  <a href="https://luvnft.medium.com/" class="nav-link">BLOG</a>
+                  <a href="index.html#work" class="nav-link">Work</a>
                 </li>
                 <li class="nav-item-wrapper">
                   <div
@@ -418,7 +417,7 @@
                     data-w-id="45c82122-ac7e-c995-1427-8593ed75fc00"
                     class="header-dropdown w-dropdown"
                   >
-                    <div class="header-dropdown-toggle w-dropdown-toggle"><div>CONTACT</div></div>
+                    <div class="header-dropdown-toggle w-dropdown-toggle"><div>Pages</div></div>
                     <nav class="mega-menu-container w-dropdown-list">
                       <div class="menu-grid-wrapper">
                         <div class="w-layout-grid menu-grid">
@@ -426,7 +425,7 @@
                             <h3 class="mega-menu-title">Pages</h3>
                             <div class="mega-menu-column-1">
                               <a
-                                href="/"
+                                href="index.html"
                                 aria-current="page"
                                 class="mega-menu-link w--current"
                                 >HOME</a
@@ -434,7 +433,7 @@
                                 >Store</a
                               >
                               <a
-                                href="/rmrk/detail/1"
+                                href="https://nfttemplate.webflow.io/product/crystal-card-1"
                                 class="mega-menu-link"
                                 >Single Product</a
                               >
@@ -477,20 +476,25 @@
                 </li>
                 <li class="nav-item-wrapper button">
                   <div class="button-container full-width">
-                    <a href="/rmrk/gallery" class="button-primary small full-width w-button"
-                      >CONNECT WALLET</a
+                    <a href="index.html#Store" class="button-primary small full-width w-button"
+                      >Browse Gallery</a
                     >
                   </div>
                 </li>
               </ul>
             </nav>
           </div>
-
-
-          
           <div class="split-content header-right">
             <div class="mobile-menu">
-              <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false"><div class="menu-button-icon-wrapper"><div class="menu-button-icon"><div class="menu-line-top"></div><div class="menu-line-middle"></div><div class="menu-line-bottom"></div></div></div></div>
+              <div class="menu-button w-nav-button">
+                <div class="menu-button-icon-wrapper">
+                  <div class="menu-button-icon">
+                    <div class="menu-line-top"></div>
+                    <div class="menu-line-middle"></div>
+                    <div class="menu-line-bottom"></div>
+                  </div>
+                </div>
+              </div>
               <ul role="list" class="cart-mobile">
                 <li class="nav-item-wrapper cart">
                   <div
@@ -620,11 +624,11 @@
                     class="w-commerce-commercecartwrapper cart"
                   >
                     <a
-                      href="/#"
+                      href="index.html#"
                       data-node-type="commerce-cart-open-link"
                       class="w-commerce-commercecartopenlink cart-button w-inline-block"
                     >
-                      <div class="w-inline-block hidden">Cart</div>
+                      <div class="w-inline-block">Cart</div>
                       <div class="w-inline-block">(</div>
                       <div
                         data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItemsCount%22%7D%7D%5D"
@@ -646,7 +650,7 @@
                         <div class="w-commerce-commercecartheader cart-header">
                           <h4 class="w-commerce-commercecartheading cart-title">Your Cart</h4>
                           <a
-                            href="/#"
+                            href="index.html#"
                             data-node-type="commerce-cart-close-link"
                             class="w-commerce-commercecartcloselink close-button-cart w-inline-block"
                           ></a>
@@ -671,7 +675,7 @@
                               <div class="w-commerce-commercecartitem">
                                 <img
                                   data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D"
-                                  src="/"
+                                  src="index.html"
                                   alt=""
                                   class="w-commerce-commercecartitemimage cart-product-image w-dyn-bind-empty"
                                 />
@@ -710,7 +714,7 @@
                                     </li>
                                   </ul>
                                   <a
-                                    href="/#"
+                                    href="index.html#"
                                     data-wf-bindings="%5B%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
                                     class="cart-remove w-inline-block"
                                     data-wf-cart-action="remove-item"
@@ -877,14 +881,14 @@
             </div>
             <div class="hidden-tablet">
               <div class="button-container">
-                <a href="/rmrk/gallery" class="button-primary small w-button">CONNECT WALLET</a>
+                <a href="index.html#store" class="button-primary small w-button">Browse gallery</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div data-w-id="4eabff81-1a43-f11f-339b-2d46f64fc52a" class="section hero-home" style="display: none;">
-        <div class="container-default w-container" style="display: none;">
+      <div data-w-id="4eabff81-1a43-f11f-339b-2d46f64fc52a" class="section hero-home">
+        <div class="container-default w-container">
           <div class="w-layout-grid hero-grid">
             <div
               data-w-id="bc03214d-5378-fb49-67b8-1af4a8eae15c"
@@ -900,20 +904,21 @@
                 opacity: 0;
               "
             >
-              <h1>I LUV MY NFT</h1>
+              <h1>I&#x27;m John Carter, a NFT Artist</h1>
               <p class="paragraph-large">
-                A tribe owned NFT marketplace to create,share,sell and buy digital collectives.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel purus cras curabitur
+                eget facilisis nisl. Neque a porttitor .
               </p>
               <div class="mg-top-48px">
                 <div class="button-container">
-                  <a href="/rmrk/gallery" class="button-primary w-button">BROWSE GALLERY</a>
+                  <a href="index.html#store" class="button-primary w-button">Browse gallery</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <img
-          src="@/assets/Ellipse_header.png"
+          src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9c8e59d1b810c572a570_blur-blob-nft-webflow-template.svg"
           data-w-id="e5a52d42-0186-1e21-b84e-a2707429aefc"
           style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -930,7 +935,7 @@
           class="blob-home-hero"
         />
         <img
-          src="@/assets/1.png"
+          src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9d72deb0d36358c197ff_buble-1-nft-webflow-template.png"
           loading="lazy"
           width="368.5"
           style="
@@ -949,7 +954,7 @@
           class="bubble hero-home"
         />
         <img
-          src="@/assets/about-2.png"
+          src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9f1433e846624e81f793_donut-nft-webflow-template.png"
           data-w-id="554897b1-25e1-e3a4-3605-133d21b38602"
           style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -966,7 +971,7 @@
           class="donuts hero-home"
         />
       </div>
-      <div id="about" data-w-id="459cd8d6-6bd6-c406-d0f4-2fb0365f9af8" class="section shop-home" style="display:none;">
+      <div id="about" data-w-id="459cd8d6-6bd6-c406-d0f4-2fb0365f9af8" class="section shop-home">
         <div class="container-default w-container">
           <div class="w-layout-grid grid-about">
             <div class="image-about-me-container">
@@ -974,14 +979,42 @@
                 src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605aa8f5099671f89332fc45_bubble-2-nft-webflow-template.png"
                 loading="lazy"
                 width="368.5"
+                style="
+                  -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
+                    rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
+                    rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
+                    rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
                 data-w-id="9dd1eb0d-4574-d2ec-03a3-f5e233c8efd4"
                 alt=""
                 class="bubble about-me"
               />
               <img
-                src="@/assets/about-1.png"
+                src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605aa451e911d40f5b24e8b3_about-me-nft-webflow-template.jpeg"
                 loading="lazy"
+                style="
+                  -webkit-transform: translate3d(62px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+                    rotateZ(19deg) skew(0, 0);
+                  -moz-transform: translate3d(62px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+                    rotateZ(19deg) skew(0, 0);
+                  -ms-transform: translate3d(62px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+                    rotateZ(19deg) skew(0, 0);
+                  transform: translate3d(62px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+                    rotateZ(19deg) skew(0, 0);
+                  opacity: 0;
+                "
                 sizes="(max-width: 479px) 82vw, (max-width: 767px) 85vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 1186.0751953125px"
+                srcset="
+                  https://assets.website-files.com/605a8ad8853d7fc62334c73e/605aa451e911d40f5b24e8b3_about-me-nft-webflow-template-p-500.jpeg   500w,
+                  https://assets.website-files.com/605a8ad8853d7fc62334c73e/605aa451e911d40f5b24e8b3_about-me-nft-webflow-template-p-800.jpeg   800w,
+                  https://assets.website-files.com/605a8ad8853d7fc62334c73e/605aa451e911d40f5b24e8b3_about-me-nft-webflow-template-p-1080.jpeg 1080w,
+                  https://assets.website-files.com/605a8ad8853d7fc62334c73e/605aa451e911d40f5b24e8b3_about-me-nft-webflow-template.jpeg        1090w
+                "
                 alt=""
                 class="image-about-me"
               />
@@ -1014,25 +1047,25 @@
                 opacity: 0;
               "
             >
-              <h2>CREATORS</h2>
+              <h2>About me</h2>
               <p class="paragraph-large">
-                We are looking for artists to compower the new creator's economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUVfluencers.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt magna non, libero
+                turpis sem vitae et. Natoque ut egestas sit volutpat.
               </p>
+              <ul role="list" class="list-gradient-container">
+                <li class="list-item-gradient"><div>Illustration Artist</div></li>
+                <li class="list-item-gradient"><div>3D Modeler</div></li>
+              </ul>
               <div class="mg-top-48px">
                 <div class="button-container">
-                  <a href="#contact" class="button-primary w-button">APPLY</a>
+                  <a href="index.html#contact" class="button-primary w-button">Hire me</a>
                 </div>
-                
               </div>
-
-              <div class="mg-top-48px"></div>
-              <div class="mg-top-48px"></div>
-
             </div>
           </div>
         </div>
         <img
-          src="@/assets/about-3.png"
+          src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9f1433e846624e81f793_donut-nft-webflow-template.png"
           loading="lazy"
           style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -1048,6 +1081,11 @@
           data-w-id="172a4418-1d22-b593-830b-2fdcda5e3d8e"
           alt=""
           class="donuts about-home"
+        />
+        <img
+          src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9c8e59d1b810c572a570_blur-blob-nft-webflow-template.svg"
+          alt=""
+          class="blob-home-about"
         />
       </div>
       <div id="store" data-w-id="cc85c299-03d7-156e-0385-e31410ae0102" class="section shop-home">
@@ -1069,7 +1107,12 @@
           >
             <div class="container-medium-730px">
               <div class="text-center">
-                <h2 style="">LUV <span style="color:#beef00;">N</span><span style="color:#fe019a;">FT</span> Gallery</h2>
+                <h2>NFT Gallery</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt magna non,
+                  libero turpis sem vitae et. Natoque ut egestas sit volutpat etiam enim. Adipiscing
+                  rhoncus.
+                </p>
               </div>
             </div>
           </div>
@@ -1091,7 +1134,7 @@
             <div role="list" class="products-container w-dyn-items">
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-1"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1105,13 +1148,13 @@
                 >
                   $ 2,500.00 USD
                 </div>
-                <a href="#" class="link-product-container w-inline-block"
+                <a href="index.html#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 1</h3></a
                 >
-                <p></p>
+                <p>Lorem ipsum dolor sit ametdolo, consectetur adipiscing eli.</p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-1"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1122,7 +1165,7 @@
               </div>
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-2"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1133,16 +1176,16 @@
                 <div
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
-                >   
+                >
                   $ 2,500.00 USD
                 </div>
-                <a href="#" class="link-product-container w-inline-block"
+                <a href="index.html#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 2</h3></a
                 >
-                <p></p>
+                <p>Lorem ipsum dolor sit ametdolo, consectetur adipiscing eli.</p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-2"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1153,7 +1196,7 @@
               </div>
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-3"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1167,13 +1210,13 @@
                 >
                   $ 2,500.00 USD
                 </div>
-                <a href="#" class="link-product-container w-inline-block"
+                <a href="index.html#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 3</h3></a
                 >
-                <p></p>
+                <p>Lorem ipsum dolor sit ametdolo, consectetur adipiscing eli.</p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-3"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1185,7 +1228,6 @@
             </div>
           </div>
         </div>
-        
         <img
           src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9c8e59d1b810c572a570_blur-blob-nft-webflow-template.svg"
           alt=""
@@ -1197,7 +1239,7 @@
           class="blob-home-gallery-two"
         />
       </div>
-      <div id="work" class="section my-work" style="display:none;">
+      <div id="work" class="section my-work">
         <div class="container-default w-container">
           <div
             data-w-id="f724c142-e2d0-0a9b-ead3-f4893760af6c"
@@ -1214,7 +1256,11 @@
             "
             class="top-content"
           >
-            <h2 class="mg-bottom-0">WHY LUV NFT</h2>
+            <h2 class="mg-bottom-0">My work</h2>
+            <p class="work-paragraph-top">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt magna non, libero
+              turpis sem vitae et
+            </p>
           </div>
           <div
             data-w-id="7469260d-8b28-4036-529d-32eb66383187"
@@ -1232,27 +1278,31 @@
             class="w-layout-grid grid-my-work"
           >
             <div class="card-crystal">
-              <h3>NO GAS FEES</h3>
+              <h3>Digital illustration</h3>
               <p class="paragraph-large">
-                LUV NFT uses Polkadot/Kusma network which allows us to offer gas-free minting and trading. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare diam nulla mi. Ac
+                tortor consectetur nunc orci gravid.
               </p>
             </div>
             <div class="card-crystal">
-              <h3>GO DIGITAL</h3>
+              <h3>3D modeling</h3>
               <p class="paragraph-large">
-              Turn your customers or fans to patrons by selling digital goods verified with blockchain technology.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare diam nulla mi. Ac
+                tortor consectetur nunc orci gravid.
               </p>
             </div>
             <div class="card-crystal">
-              <h3>AUTHENTIC</h3>
+              <h3>Motion graphics</h3>
               <p class="paragraph-large">
-                Digitally sign your creation on LUV NFT permanently and verified through the blockchain.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare diam nulla mi. Ac
+                tortor consectetur nunc orci gravid.
               </p>
             </div>
             <div class="card-crystal">
-              <h3>OWNERSHIP</h3>
+              <h3>Coding</h3>
               <p class="paragraph-large">
-                Once you purchase your unique digital collectible, it's transferred and stored in your digital wallet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare diam nulla mi. Ac
+                tortor consectetur nunc orci gravid.
               </p>
             </div>
           </div>
@@ -1275,7 +1325,7 @@
           class="blob-home-my-work"
         />
       </div>
-      <div id="contact" data-w-id="7f1f1943-19a1-0d5c-f860-1d61242ddb06" class="section contact" style="display:none;">
+      <div id="contact" data-w-id="7f1f1943-19a1-0d5c-f860-1d61242ddb06" class="section contact">
         <div class="container-default w-container">
           <div class="w-layout-grid grid-contact">
             <div
@@ -1292,9 +1342,10 @@
                 opacity: 0;
               "
             >
-              <h2>Let&#x27;s BUILD</h2>
+              <h2>Let&#x27;s get in touch today!</h2>
               <p>
-                We partner with the top brands, athlete's, and creators to bring you the hottest NFT drops.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt magna non, libero
+                turpis sem vitae et
               </p>
               <div class="mg-top-40px">
                 <a
@@ -1302,7 +1353,7 @@
                   href="mailto:contact@nfttemplate.webflow.io"
                   class="link-wrapper w-inline-block"
                 >
-                  <div>info@luvnft.com</div>
+                  <div>contact@nft.com</div>
                   <div class="underline-wrapper"><div class="underline"></div></div>
                 </a>
               </div>
@@ -1374,20 +1425,15 @@
                             class="select w-select"
                           >
                             <option value="">Select Inquiry</option>
-                            <option value="">Brand Partnership</option>
-                            <option value="">crypto art</option>
-                            <option value="">music</option>
-                            <option value="">photography</option>
-                            <option value="">games</option>
-                            <option value="">domains</option>
-                            <option value="">event fix</option>
-                            <option value="">Other</option>
+                            <option value="Work">Work</option>
+                            <option value="Press">Press</option>
+                            <option value="Other">Other</option>
                           </select>
                         </div>
                       </div>
                       <div id="w-node-_976f08fa-4bd7-5cb4-b53d-2187f5f1194b-0634c740">
                         <textarea
-                          placeholder="Tell us more about you and what your creating?"
+                          placeholder="How can I Help you?"
                           maxlength="5000"
                           id="Message"
                           name="Message"
@@ -1431,7 +1477,7 @@
           class="blob-home-contact-one"
         />
         <img
-          src="@/assets/briefcase(1) 1.png"
+          src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9f1433e846624e81f793_donut-nft-webflow-template.png"
           loading="lazy"
           style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -1454,53 +1500,64 @@
           <div class="footer-top">
             <div class="footer-top-left">
               <a
-                href="/"
+                href="index.html"
                 aria-current="page"
                 class="footer-logo-container w-inline-block w--current"
               >
                 <img
-                  src="@/assets/logo.png"
+                  src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a947c2d662438d332bb78_logo-nft-webflow-template.png"
                   alt=""
                   class="footer-logo"
                 />
               </a>
               <ul role="list" class="footer-nav">
                 <li class="footer-nav-item">
-                  <a href="/" aria-current="page" class="nav-link footer w--current"
+                  <a href="index.html" aria-current="page" class="nav-link footer w--current"
                     >HOME</a
                   >
                 </li>
                 <li class="footer-nav-item">
-                  <a href="/rmrk/mint" class="nav-link footer">MARKET</a>
+                  <a href="index.html#about" class="nav-link footer">About</a>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
+                  <a href="https://nfttemplate.webflow.io/store" class="nav-link footer">Store</a>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="https://luvnft.medium.com/" class="nav-link footer">BLOG</a>
+                  <a href="index.html#work" class="nav-link footer">Work</a>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="/#contact" class="nav-link footer">CONTACT</a>
+                  <a href="index.html#contact" class="nav-link footer">Contact</a>
                 </li>
               </ul>
             </div>
             <div>
               <ul role="list" class="list-social-media">
                 <li class="list-item-social-media">
-                  <a href="https://facebook.com/" class="social-media-icon facebook"></a>
+                  <a href="http://facebook.com/" class="social-media-icon facebook"></a>
                 </li>
                 <li class="list-item-social-media">
-                  <a href="https://www.tiktok.com/"><i class="social-media-icon fab fa-tiktok fa-lg"></i></a>
+                  <a href="https://twitter.com/" class="social-media-icon"></a>
                 </li>
                 <li class="list-item-social-media">
-                  <a href="https://www.instagram.com/luvnft" class="social-media-icon"></a>
+                  <a href="https://www.instagram.com/" class="social-media-icon"></a>
+                </li>
+                <li class="list-item-social-media">
+                  <a href="https://www.linkedin.com/" class="social-media-icon linkedin"></a>
+                </li>
+                <li class="list-item-social-media">
+                  <a href="http://youtube.com/" class="social-media-icon youtube"></a>
+                </li>
+                <li class="list-item-social-media">
+                  <a href="https://www.whatsapp.com/" class="social-media-icon"></a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="footer-bottom">
             <p>
-              © LUV NFT 💛, Inc. 2021. Do what you LUV for a living
+              Copyright © NFT | Designed by
+              <a href="https://brixtemplates.com/" class="link-white">BRIX Templates</a> - Powered
+              by <a href="https://webflow.com/" class="link-white">Webflow</a>
             </p>
           </div>
         </div>
@@ -1598,6 +1655,5 @@ export default {
   }
 };
 </script>
-
 
 
