@@ -1527,7 +1527,7 @@
           </div>
           <div class="footer-bottom">
             <p>
-              © LUV NFT 💛, Inc. 2021. Do what you LUV for a living
+              C 💜 LUV NFT 2021
             </p>
           </div>
         </div>

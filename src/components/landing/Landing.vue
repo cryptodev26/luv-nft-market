@@ -1090,7 +1090,7 @@
             <div role="list" class="products-container w-dyn-items">
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="https://nfttemplate.webflow.io/product/crystal-card-1"
+                  href="/rmrk/gallery/1"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1110,7 +1110,7 @@
                 <p></p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="https://nfttemplate.webflow.io/product/crystal-card-1"
+                  href="/rmrk/gallery/1"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1121,7 +1121,7 @@
               </div>
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="https://nfttemplate.webflow.io/product/crystal-card-2"
+                  href="/rmrk/gallery/1"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1141,7 +1141,7 @@
                 <p></p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="https://nfttemplate.webflow.io/product/crystal-card-2"
+                  href="/rmrk/gallery/1"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1152,7 +1152,7 @@
               </div>
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="https://nfttemplate.webflow.io/product/crystal-card-3"
+                  href="/rmrk/gallery/1"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1172,7 +1172,7 @@
                 <p></p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="https://nfttemplate.webflow.io/product/crystal-card-3"
+                  href="/rmrk/gallery/1"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1505,14 +1505,14 @@
           </div>
           <div class="footer-bottom">
             <p>
-              © LUV NFT 💛, Inc. 2021. Do what you LUV for a living
+              C 💜 LUV NFT 2021
             </p>
           </div>
         </div>
       </footer>
     </div>
     
-    <!--[if lte IE 9
+    <!--[if lte IE 9©
       ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
     ><![endif]-->
 </template>
