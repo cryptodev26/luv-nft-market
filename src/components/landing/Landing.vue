@@ -1498,8 +1498,11 @@
                   <a href="https://www.tiktok.com/"><i class="social-media-icon fab fa-tiktok fa-lg"></i></a>
                 </li>
                 <li class="list-item-social-media">
-                  <a href="https://www.instagram.com/luvnft" class="social-media-icon"></a>
+                  <a href="https://www.instagram.com/luvnft"><i class="social-media-icon fab fa-instagram fa-lg"></i></a>
                 </li>
+                <!-- <li class="list-item-social-media">
+                  <a href="https://www.instagram.com/luvnft" class="social-media-icon"></a>
+                </li> -->
               </ul>
             </div>
           </div>
