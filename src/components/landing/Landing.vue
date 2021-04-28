@@ -1094,7 +1094,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="https://assets.website-files.com/605a8ad8853d7f026334c750/605aae13deb0d3809bc1d853_crystal-card-1-nft-webflow-template.png"
+                    src="@/assets/critical-card-1.png"
                     alt=""
                   />
                 </a>
@@ -1125,7 +1125,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="https://assets.website-files.com/605a8ad8853d7f026334c750/605aae1ce85be2cfdd7fa65d_crystal-card-2-nft-webflow-template.png"
+                    src="@/assets/critical-card-2.png"
                     alt=""
                   />
                 </a>
@@ -1156,7 +1156,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="https://assets.website-files.com/605a8ad8853d7f026334c750/605aae239142f2615382bce1_crystal-card-3-nft-webflow-template.png"
+                    src="@/assets/critical-card-3.png"
                     alt=""
                   />
                 </a>
