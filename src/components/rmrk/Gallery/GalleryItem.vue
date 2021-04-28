@@ -419,12 +419,12 @@
                   >HOME</a
                 >
               </li>
-              <li class="nav-item-wrapper">
+              <!-- <li class="nav-item-wrapper">
                 <a href="/rmrk/mint" class="nav-link">MARKET</a>
               </li>
               <li class="nav-item-wrapper">
                 <a href="/rmrk/gallery" class="nav-link">GALLERY</a>
-              </li>
+              </li> -->
               <li class="nav-item-wrapper">
                 <a href="https://luvnft.medium.com/" class="nav-link">BLOG</a>
               </li>
@@ -1760,12 +1760,12 @@
                   >HOME</a
                 >
               </li>
-              <li class="footer-nav-item">
+              <!-- <li class="footer-nav-item">
                 <a href="/rmrk/mint" class="nav-link footer">MARKET</a>
               </li>
               <li class="footer-nav-item">
                 <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
-              </li>
+              </li> -->
               <li class="footer-nav-item">
                 <a href="https://luvnft.medium.com/" class="nav-link footer"
                   >BLOG</a
@@ -1779,7 +1779,7 @@
           <div>
             <ul role="list" class="list-social-media">
               <li class="list-item-social-media">
-                  <a href="https://facebook.com/" class="social-media-icon facebook"></a>
+                  <a href="htts://twitter.com/luvnft"><i class="social-media-icon fab fa-twitter fa-lg"></i></a>
                 </li>
                 <li class="list-item-social-media">
                   <a href="https://www.tiktok.com/"><i class="social-media-icon fab fa-tiktok fa-lg"></i></a>

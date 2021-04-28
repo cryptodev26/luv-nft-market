@@ -401,12 +401,12 @@
                 <li class="nav-item-wrapper">
                   <a href="/" aria-current="page" class="nav-link w--current">HOME</a>
                 </li>
-                <li class="nav-item-wrapper">
+                <!-- <li class="nav-item-wrapper">
                   <a href="/rmrk/mint" class="nav-link">MARKET</a>
                 </li>
                 <li class="nav-item-wrapper">
                   <a href="/rmrk/gallery" class="nav-link">GALLERY</a>
-                </li>
+                </li> -->
                 <li class="nav-item-wrapper">
                   <a href="https://luvnft.medium.com/" class="nav-link">BLOG</a>
                 </li>
@@ -905,7 +905,7 @@
               </p>
               <div class="mg-top-48px">
                 <div class="button-container">
-                  <a href="/rmrk/gallery" class="button-primary w-button">BROWSE GALLERY</a>
+                  <a href="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" class="button-primary w-button">SIGN UP</a>
                 </div>
               </div>
             </div>
@@ -1015,7 +1015,7 @@
             >
               <h2>CREATORS</h2>
               <p class="paragraph-large">
-                We are looking for artists to compower the new creator's economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUVfluencers.
+                We are looking for artists to empower the new creator's economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUVfluencers.
               </p>
               <div class="mg-top-48px">
                 <div class="button-container">
@@ -1068,7 +1068,7 @@
           >
             <div class="container-medium-730px">
               <div class="text-center">
-                <h2>NFT Gallery</h2>
+                <h2>NFT GALLERY</h2>
               </div>
             </div>
           </div>
@@ -1102,7 +1102,7 @@
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
                 >
-                  $ 2,500.00 USD
+                  0.5100 KSM
                 </div>
                 <a href="/#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 1</h3></a
@@ -1133,7 +1133,7 @@
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
                 >
-                  $ 2,500.00 USD
+                  0.1019 KSM
                 </div>
                 <a href="/#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 2</h3></a
@@ -1164,7 +1164,7 @@
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
                 >
-                  $ 2,500.00 USD
+                  0.6120 KSM
                 </div>
                 <a href="/#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 3</h3></a
@@ -1213,7 +1213,7 @@
             "
             class="top-content"
           >
-            <h2 class="mg-bottom-0">WHY LUV NFT</h2>
+            <h2 class="mg-bottom-0">WHY LUV <span style="color:#beef00;">N</span><span style="color:#FE019A;">FT</span></h2>
           </div>
           <div
             data-w-id="7469260d-8b28-4036-529d-32eb66383187"
@@ -1475,12 +1475,12 @@
                     >HOME</a
                   >
                 </li>
-                <li class="footer-nav-item">
+                <!-- <li class="footer-nav-item">
                   <a href="/rmrk/mint" class="nav-link footer">MARKET</a>
                 </li>
                 <li class="footer-nav-item">
                   <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
-                </li>
+                </li> -->
                 <li class="footer-nav-item">
                   <a href="https://luvnft.medium.com/" class="nav-link footer">BLOG</a>
                 </li>
@@ -1492,7 +1492,7 @@
             <div>
               <ul role="list" class="list-social-media">
                 <li class="list-item-social-media">
-                  <a href="https://facebook.com/" class="social-media-icon facebook"></a>
+                  <a href="htts://twitter.com/luvnft"><i class="social-media-icon fab fa-twitter fa-lg"></i></a>
                 </li>
                 <li class="list-item-social-media">
                   <a href="https://www.tiktok.com/"><i class="social-media-icon fab fa-tiktok fa-lg"></i></a>
