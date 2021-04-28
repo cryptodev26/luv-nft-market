@@ -1694,7 +1694,7 @@
                 </form>
                 <div class="card-crystal form-success w-form-done">
                   <div>
-                    Thank you! Your submission has been received. I will contact
+                    Thank you! Your submission has been received. We will contact
                     you soon.
                   </div>
                 </div>
@@ -1792,7 +1792,7 @@
         </div>
         <div class="footer-bottom">
           <p>
-            C 💜 LUV NFT 2021
+            © 💜 LUV NFT 2021
           </p>
         </div>
       </div>
