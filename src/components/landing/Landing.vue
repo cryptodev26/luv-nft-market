@@ -899,7 +899,7 @@
                 opacity: 0;
               "
             >
-              <h1>I LUV MY NFT</h1>
+              <h1>I LUV MY <span style="color:#beef00 !important;">N</span><span style="color:#FE019A;">FT</span></h1>
               <p class="paragraph-large">
                 A tribe owned NFT marketplace to create,share,sell and buy digital collectives.
               </p>
@@ -1213,7 +1213,7 @@
             "
             class="top-content"
           >
-            <h2 class="mg-bottom-0">WHY LUV <span style="color:#beef00;">N</span><span style="color:#FE019A;">FT</span></h2>
+            <h2 class="mg-bottom-0">WHY LUV <span style="color:#beef00 !important;">N</span><span style="color:#FE019A;">FT</span></h2>
           </div>
           <div
             data-w-id="7469260d-8b28-4036-529d-32eb66383187"
