@@ -1068,7 +1068,7 @@
           >
             <div class="container-medium-730px">
               <div class="text-center">
-                <h2>NFT GALLERY</h2>
+                <h2><span style="color:#beef00 !important;">N</span><span style="color:#FE019A;">FT</span> GALLERY</h2>
               </div>
             </div>
           </div>
@@ -1291,7 +1291,7 @@
                 opacity: 0;
               "
             >
-              <h2>Let&#x27;s BUILD</h2>
+              <h2>LET&#x27;S BUILD</h2>
               <p>
                 We partner with the top brands, athlete's, and creators to bring you the hottest NFT drops.
               </p>
