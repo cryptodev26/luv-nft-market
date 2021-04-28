@@ -476,7 +476,7 @@
                 </li>
                 <li class="nav-item-wrapper button">
                   <div class="button-container full-width">
-                    <a href="/rmrk/gallery" class="button-primary small full-width w-button"
+                    <a href="#" class="button-primary small full-width w-button"
                       >CONNECT WALLET</a
                     >
                   </div>
