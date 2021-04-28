@@ -6226,24 +6226,24 @@ figcaption {
 }
 
 .text-area:focus {
-  background-color: hsla(0, 0%, 100%, 0.14);
+  /* background-color: hsla(0, 0%, 100%, 0.14); */
   color: #fff;
 }
 
 .text-area::-webkit-input-placeholder {
-  color: #bebdd4;
+  /* color: #bebdd4; */
 }
 
 .text-area:-ms-input-placeholder {
-  color: #bebdd4;
+  /* color: #bebdd4; */
 }
 
 .text-area::-ms-input-placeholder {
-  color: #bebdd4;
+  /* color: #bebdd4; */
 }
 
 .text-area::placeholder {
-  color: #bebdd4;
+  /* color: #bebdd4; */
 }
 
 .footer-top {
