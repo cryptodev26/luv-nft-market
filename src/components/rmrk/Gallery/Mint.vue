@@ -1,6 +1,7 @@
 <template>
   <div class="page-wrapper">
       <div class="back-highlight-1"></div>
+      <div class="back-highlight-3"></div>
       <div
         data-collapse="medium"
         data-animation="default"
@@ -434,7 +435,7 @@
                                 >Store</a
                               >
                               <a
-                                href="/rmrk/detail/1"
+                                href="https://nfttemplate.webflow.io/product/crystal-card-1"
                                 class="mega-menu-link"
                                 >Single Product</a
                               >
@@ -1050,7 +1051,34 @@
           class="donuts about-home"
         />
       </div>
-      <div id="store" data-w-id="cc85c299-03d7-156e-0385-e31410ae0102" class="section shop-home">
+      <div id="mint-page" class="section mint">
+      <div class="body">
+        <div class="mint-title-form">
+          <h2 class="title" style="font-style:normal;">MINT</h2>
+          <div class="mint-form">
+            <input
+              class="event-ticket"
+              placeholder="e.g. Redeemable event ticket"
+            />
+            <div class="select-file">
+              <div class="select-img">
+                <img src="/images/home/about-3 1.png" />
+              </div>
+              <div class="select-text">
+                Select or drop a file<br />
+                PNG, GIF, WEBP, MP4 or MP3. Max 30mb.
+              </div>
+            </div>
+            <button>CREATE</button>
+          </div>
+        </div>
+        <div class="luv-coin">
+          <img src="/images/home/luv-coin.png" />
+        </div>
+      </div>
+    </div>
+    
+      <div id="store" data-w-id="cc85c299-03d7-156e-0385-e31410ae0102" class="section shop-home" style="display:none;">
         <div class="container-default w-container">
           <div
             data-w-id="a7b9cdbe-a4d9-b41f-971c-ca92967cbec6"
@@ -1091,7 +1119,7 @@
             <div role="list" class="products-container w-dyn-items">
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-1"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1111,7 +1139,7 @@
                 <p></p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-1"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1122,7 +1150,7 @@
               </div>
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-2"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1133,7 +1161,7 @@
                 <div
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
-                >   
+                >
                   $ 2,500.00 USD
                 </div>
                 <a href="#" class="link-product-container w-inline-block"
@@ -1142,7 +1170,7 @@
                 <p></p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-2"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1153,7 +1181,7 @@
               </div>
               <div role="listitem" class="w-dyn-item">
                 <a
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-3"
                   class="product-card-image w-inline-block"
                 >
                   <img
@@ -1173,7 +1201,7 @@
                 <p></p>
                 <a
                   data-w-id="c48a718e-1a62-55bc-f080-ef674e532b49"
-                  href="/rmrk/detail/1"
+                  href="https://nfttemplate.webflow.io/product/crystal-card-3"
                   class="link-wrapper learn-more-product w-inline-block"
                 >
                   <div>View NFT</div>
@@ -1185,7 +1213,6 @@
             </div>
           </div>
         </div>
-        
         <img
           src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9c8e59d1b810c572a570_blur-blob-nft-webflow-template.svg"
           alt=""
@@ -1506,98 +1533,91 @@
         </div>
       </footer>
     </div>
-    
-    <!--[if lte IE 9
-      ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
-    ><![endif]-->
 </template>
 
-<script>
-export default {
-  name: 'HOME',
-  methods: {
-    onGalleryClick: function() {
-      this.$router.push({ name: 'nft' });
-    },
-    onGalleryItemClick: function() {
-    }
-  },
-  data() {
-    return {
-      isModalActive: false,
-      nft: [
-        {
-          number: '0.5100 KSM',
-          title: 'Crystal Card 1',
-          avatar: 'images/home/critical-card-1.png',
-          description: 'View NFT',
-          underline: 'images/home/underline.png'
-        },
-        {
-          number: '0.1019 KSM',
-          title: 'Crystal Card 2',
-          avatar: 'images/home/critical-card-2.png',
-          description: 'View NFT',
-          underline: 'images/home/underline.png'
-        },
-        {
-          number: '0.6120 KSM',
-          title: 'Crystal Card 3',
-          avatar: 'images/home/critical-card-3.png',
-          description: 'View NFT',
-          underline: 'images/home/underline.png'
-        }
-      ],
-      whyUs: [
-        {
-          title: 'GO DIGITAL',
-          avatar: 'images/home/why-1.png',
-          description:
-            'Turn your customers or fans into patrons by selling your digital goodies. Money is going digital, shouldn’t your products?'
-        },
-        {
-          title: 'NO MIDDLEMAN',
-          avatar: 'images/home/why-2.png',
-          description:
-            'Buy and sell what you LUV without the middleman fees. A true rewarding heart-to-heart connection.'
-        },
-        {
-          title: 'SPREAD LUV',
-          avatar: 'images/home/why-3.png',
-          description:
-            'Once you purchase a digital collectible, such as crypto art, you can resell it in our secondary marketplace to other collectors.'
-        }
-      ],
-      creators: {
-        title: 'CREATORS',
-        avatar: 'images/home/about-1.png',
-        description:
-          'We are looking for artists to empower the new creators economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUV fluencers.'
-      },
-      aboutUs: [
-        {
-          title: 'CREATORS',
-          avatar: 'images/home/about-1.png',
-          description:
-            'Ditigitally sign your work by creating a tokenized certificate using our blockchain technology. No longer will anyone profit on your trending creations.'
-        }
-        // {
-        //   title: 'SHOWCASE YOUR LUV MAGIC',
-        //   avatar: 'images/home/about-2.png',
-        //   description:
-        //     'Customize your profile to display your NFT collections, certified on the Polkadot blockchain, to patrons around the world. Crypto payments allow you to sell your digital goodies internationally. '
-        // },
-        // {
-        //   title: 'A TRIBE OF CREATORS',
-        //   avatar: 'images/home/about-3.png',
-        //   description:
-        //     'Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us will unite to invest in each other to build our future, blockchain by blockchain.'
-        // }
-      ]
-    };
+<script lang="ts">
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { getInstance } from '@/components/rmrk/service/RmrkService';
+import { NFTWithMeta, NFT } from '../service/scheme';
+import { defaultSortBy, sanitizeObjectArray } from '../utils';
+import GalleryCardList from './GalleryCardList.vue';
+
+type NFTType = NFT | NFTWithMeta;
+const components = { GalleryCardList };
+
+@Component({ components })
+export default class Gallery extends Vue {
+  private nfts: NFTType[] = [];
+  private isLoading: boolean = true;
+  private isModalActive: boolean = false;
+  private nft: object[] = [];
+
+  public onGalleryClick(nftId: string) {
+    this.$router.push({ name: 'nftDetail', params: { id: nftId } });
   }
-};
+
+  public async mounted() {
+    const rmrkService = getInstance();
+
+    if (!rmrkService) {
+      return;
+    }
+
+    this.nft = [
+      {
+        id: '1',
+        number: '0.5100 KSM',
+        title: 'Crystal Card 1',
+        avatar: '/images/home/critical-card-1.png',
+        description: 'View NFT',
+        underline: '/images/home/underline.png'
+      },
+      {
+        id: '2',
+        number: '0.1019 KSM',
+        title: 'Crystal Card 2',
+        avatar: '/images/home/critical-card-2.png',
+        description: 'View NFT',
+        underline: '/images/home/underline.png'
+      },
+      {
+        id: '3',
+        number: '0.6120 KSM',
+        title: 'Crystal Card 3',
+        avatar: '/images/home/critical-card-3.png',
+        description: 'View NFT',
+        underline: '/images/home/underline.png'
+      }
+    ];
+
+    try {
+      this.nfts = await rmrkService
+        .getAllNFTs()
+        .then(sanitizeObjectArray)
+        .then(defaultSortBy);
+      // this.collectionMeta();
+    } catch (e) {
+      console.warn(e);
+    }
+
+    this.isLoading = false;
+  }
+}
 </script>
+<style lang="scss" scoped>
+// .card.nft-card {
+//   background-color: white;
+//   a,
+//   p,
+//   span,
+//   div {
+//     color: black;
+//     font-family: 'Archivo', sans-serif !important;
+//   }
+//   p {
+//     margin-bottom: unset;
+//   }
+// }
+</style>
 
-
-
+<style lang="scss" src="../../../styles/mint.scss"></style>

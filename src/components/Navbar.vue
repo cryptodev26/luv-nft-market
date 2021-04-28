@@ -26,6 +26,9 @@
       <b-navbar-item tag="router-link" :to="{ name: 'nft' }" class="nav-item-text">
         <strong>{{ $t("Gallery") }}</strong>
       </b-navbar-item>
+      <b-navbar-item tag="router-link" :to="{ name: 'mint' }" class="nav-item-text">
+        <strong>{{ $t("Mint") }}</strong>
+      </b-navbar-item>
       <b-navbar-dropdown arrowless collapsible label="Extra" class="nav-item-text">
         <b-navbar-item tag="router-link" :to="{ name: 'rmrkCredit' }">
           {{ $t("Credit") }}
@@ -83,6 +86,12 @@ export default class NavbarMenu extends Vue {
       name: i18n.t("Gallery"),
       tag: "router-link",
       to: { name: "nft" },
+      strong: true,
+    },
+    {
+      name: i18n.t("Mint"),
+      tag: "router-link",
+      to: { name: "mint" },
       strong: true,
     },
   ];

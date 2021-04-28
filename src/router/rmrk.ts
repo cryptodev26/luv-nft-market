@@ -1,5 +1,6 @@
 const Remark = () => import('@/views/Remark.vue');
 const Gallery = () => import('@/components/rmrk/Gallery/Gallery.vue')
+const Mint = () => import('@/components/rmrk/Gallery/Mint.vue')
 const GalleryRare = () => import('@/components/rmrk/Gallery/GalleryRare.vue')
 const GalleryItem = () => import('@/components/rmrk/Gallery/GalleryItem.vue')
 const rmrkCredit = () => import('@/components/rmrk/Credit/Credit.vue')
@@ -18,6 +19,11 @@ export default [
     path: '/rmrk/gallery',
     name: 'nft',
     component: Gallery,
+  },
+  {
+    path: '/rmrk/mint',
+    name: 'mint',
+    component: Mint,
   },
   {
     path: '/rmrk/rare',

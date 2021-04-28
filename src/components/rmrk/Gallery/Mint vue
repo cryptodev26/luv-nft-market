@@ -1,0 +1,256 @@
+<template>
+  <div class="gallery-container">
+    <div class="header">
+      <div class="logo">
+        <a href="https://blkluv.org">
+          <img src="/images/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="top-menu">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="#">MARKET</a></li>
+          <li><a href="/rmrk/gallery">GALLERY</a></li>
+          <li><a href="https://luvnft.medium.com/">BLOG</a></li>
+          <li><a href="/#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- <div class="menu">
+        <a href="mailto:info@luvnft.com"
+          ><img src="/images/home/connect_wallet_btn.png"
+        /></a>
+      </div> -->
+      <div class="menu">
+        <button>CONNECT WALLET</button>
+      </div>
+      <div class="hamburger">
+        <img src="/images/home/hamburger.svg" @click="isModalActive = true" />
+      </div>
+      <b-modal v-model="isModalActive">
+        <div class="header-menu">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="#">MARKET</a></li>
+            <li><a href="/rmrk/gallery">GALLERY</a></li>
+            <li><a href="https://luvnft.medium.com/">BLOG</a></li>
+            <li><a href="/#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </b-modal>
+    </div>
+
+    <div class="back-highlight-1"></div>
+    <div class="back-highlight-2"></div>
+
+    <div class="mint">
+      <div class="body">
+        <div class="mint-title-form">
+          <div class="title">MINT</div>
+          <div class="mint-form">
+            <input
+              class="event-ticket"
+              placeholder="e.g. Redeemable event ticket"
+            />
+            <div class="select-file">
+              <div class="select-img">
+                <img src="/images/home/about-3 1.png" />
+              </div>
+              <div class="select-text">
+                Select or drop a file<br />
+                PNG, GIF, WEBP, MP4 or MP3. Max 30mb.
+              </div>
+            </div>
+            <button>CREATE</button>
+          </div>
+        </div>
+        <div class="luv-coin">
+          <img src="/images/home/luv-coin.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-menu footer">
+      <div class="logo">
+        <a href="https://blkluv.org">
+          <img src="/images/home/footer-logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="nav-items">
+        <a href="/">HOME</a>
+        <a href="#">MARKET</a>
+        <a href="/rmrk/gallery">GALLERY</a>
+        <a href="https://luvnft.medium.com/">BLOG</a>
+        <a href="/#contact">CONTACT</a>
+      </div>
+      <div class="social-sites">
+        <a href="https://twitter.com/luvnft"
+          ><i class="social-icons fab fa-twitter fa-lg"></i
+        ></a>
+        <a href="#"><i class="social-icons fab fa-tiktok fa-lg"></i></a>
+        <a href="https://instagram.com/luvnft"
+          ><i class="social-icons fab fa-instagram fa-lg"></i
+        ></a>
+      </div>
+    </div>
+    <div class="footer">
+      © LUV NFT 💛, Inc. 2021. Do what you LUV for a living
+    </div>
+  </div>
+  <!-- <div>
+      <div>
+        <div class="columns is-multiline">
+          <div class="column is-4" v-for="nft in nfts" :key="nft.id">
+            <div class="card nft-card">
+              <router-link
+                :to="{ name: 'nftDetail', params: { id: nft.id } }"
+                tag="div"
+                class="nft-card__skeleton"
+              >
+                <div class="card-image" v-if="nft.image">
+                  <b-skeleton height="240px" :active="isLoading"> </b-skeleton>
+                  <b-image
+                    v-if="!isLoading"
+                    :src="nft.image"
+                    :src-fallback="require('@/utils/placeholder.png')"
+                    alt="Simple image"
+                    ratio="1by1"
+                  ></b-image>
+                </div>
+
+                <div v-else class="card-image">
+                  <b-image
+                    :src="
+                      require('@/assets/kodadot_logo_v1_transparent_400px.png')
+                    "
+                    alt="Simple image"
+                    ratio="1by1"
+                  ></b-image>
+                </div>
+
+                <div class="card-content">
+                  <p v-if="!isLoading" class="title is-4">
+                    <router-link
+                      :to="{ name: 'nftDetail', params: { id: nft.id } }"
+                    >
+                      {{ nft.name }}
+                    </router-link>
+                  </p>
+                  <div class="collectible-card__price-item-container">
+                    <div>
+                      <p class="collectible-card__price-text">
+                        List price:&nbsp;&nbsp;&nbsp;0.258<span
+                          class="eth-symbol"
+                          style="font-size: 15px"
+                          >Ξ</span
+                        >
+                        ($<span>450</span>)
+                      </p>
+                    </div>
+                    <div>
+                      <p class="collectible-card__price-text">
+                        Current offer:&nbsp;&nbsp;&nbsp;0.11<span
+                          class="eth-symbol"
+                          style="font-size: 15px"
+                          >Ξ</span
+                        >
+                        ($<span>198</span>)
+                      </p>
+                    </div>
+                  </div>
+
+                  <b-skeleton :active="isLoading"> </b-skeleton>
+                </div>
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+</template>
+
+<script lang="ts">
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { getInstance } from '@/components/rmrk/service/RmrkService';
+import { NFTWithMeta, NFT } from '../service/scheme';
+import { defaultSortBy, sanitizeObjectArray } from '../utils';
+import GalleryCardList from './GalleryCardList.vue';
+
+type NFTType = NFT | NFTWithMeta;
+const components = { GalleryCardList };
+
+@Component({ components })
+export default class Gallery extends Vue {
+  private nfts: NFTType[] = [];
+  private isLoading: boolean = true;
+  private isModalActive: boolean = false;
+  private nft: object[] = [];
+
+  public onGalleryClick(nftId: string) {
+    this.$router.push({ name: 'nftDetail', params: { id: nftId } });
+  }
+
+  public async mounted() {
+    const rmrkService = getInstance();
+
+    if (!rmrkService) {
+      return;
+    }
+
+    this.nft = [
+      {
+        id: '1',
+        number: '0.5100 KSM',
+        title: 'Crystal Card 1',
+        avatar: '/images/home/critical-card-1.png',
+        description: 'View NFT',
+        underline: '/images/home/underline.png'
+      },
+      {
+        id: '2',
+        number: '0.1019 KSM',
+        title: 'Crystal Card 2',
+        avatar: '/images/home/critical-card-2.png',
+        description: 'View NFT',
+        underline: '/images/home/underline.png'
+      },
+      {
+        id: '3',
+        number: '0.6120 KSM',
+        title: 'Crystal Card 3',
+        avatar: '/images/home/critical-card-3.png',
+        description: 'View NFT',
+        underline: '/images/home/underline.png'
+      }
+    ];
+
+    try {
+      this.nfts = await rmrkService
+        .getAllNFTs()
+        .then(sanitizeObjectArray)
+        .then(defaultSortBy);
+      // this.collectionMeta();
+    } catch (e) {
+      console.warn(e);
+    }
+
+    this.isLoading = false;
+  }
+}
+</script>
+<style lang="scss" scoped>
+// .card.nft-card {
+//   background-color: white;
+//   a,
+//   p,
+//   span,
+//   div {
+//     color: black;
+//     font-family: 'Archivo', sans-serif !important;
+//   }
+//   p {
+//     margin-bottom: unset;
+//   }
+// }
+</style>
+
+<style lang="scss" src="../../../styles/mint.scss"></style>

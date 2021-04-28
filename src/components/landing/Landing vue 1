@@ -1,0 +1,319 @@
+<template>
+  <div class="home-container">
+    <div class="header">
+      <div class="logo">
+        <a href="https://blkluv.org">
+          <img src="/images/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="top-menu">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li v-on:click="onMintClick()"><a href="/rmrk/mint">MARKET</a></li>
+          <li v-on:click="onGalleryClick()"><a>GALLERY</a></li>
+          <li><a href="https://luvnft.medium.com/">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- <div class="menu">
+        <a href="mailto:info@luvnft.com"
+          ><img src="/images/home/connect_wallet_btn.png"
+        /></a>
+      </div> -->
+      <div class="menu">
+        <button>CONNECT WALLET</button>
+      </div>
+      <div class="hamburger">
+        <img src="/images/home/hamburger.svg" @click="isModalActive = true" />
+      </div>
+      <b-modal v-model="isModalActive">
+        <div class="header-menu">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="#">MARKET</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="https://luvnft.medium.com/">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </b-modal>
+    </div>
+
+    <div class="back-highlight-1">
+      <img src="/images/home/Ellipse 140.png" />
+    </div>
+    <div class="back-highlight-2"></div>
+    <div class="back-highlight-3"></div>
+    <div class="back-highlight-4"></div>
+    <div class="back-highlight-5"></div>
+    <div class="back-highlight-6"></div>
+
+    <div class="heart">
+      <img id="heartId" src="images/home/1.png" />
+    </div>
+
+    <div class="banner">
+      <div class="left">
+        <img src="images/home/title.svg" class="title" />
+        <p class="description">
+          Tribe owned NFT Marketplace to create, share, sell and buy digital
+          collectibles.
+        </p>
+        <button
+          class="browse"
+          to="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2"
+        >
+          Browse gallery
+        </button>
+      </div>
+    </div>
+
+    <div class="globe"><img src="images/home/about-2.png" /></div>
+
+    <div class="about">
+      <div class="avatar">
+        <img :src="creators.avatar" />
+      </div>
+      <div class="content">
+        <p class="title">{{ creators.title }}</p>
+        <p class="description">{{ creators.description }}</p>
+        <button class="apply">APPLY</button>
+      </div>
+    </div>
+
+    <div class="gallery"><img src="images/home/about-3.png" /></div>
+
+    <div class="nft-gallery">
+      <img src="images/home/why-title.svg" class="title" />
+      <div class="body">
+        <div v-for="(item, index) in nft" :key="index" class="item">
+          <div class="avatar">
+            <img :src="item.avatar" v-on:click="onGalleryItemClick(index)" />
+          </div>
+          <p class="nft-number">{{ item.number }}</p>
+          <p class="title">{{ item.title }}</p>
+          <p class="description">{{ item.description }}</p>
+          <img class="underline" :src="item.underline" />
+        </div>
+      </div>
+    </div>
+
+    <div class="nft">
+      <div class="title">WHY LUV NFT</div>
+      <div class="body">
+        <div class="one">
+          <p class="subtitle">NO GAS FEES</p>
+          <p class="description">
+            LUV NFT uses Polkadot/Kusma network which allows us to offer
+            gas-free minting and trading.
+          </p>
+        </div>
+        <div class="two">
+          <p class="subtitle">GO DIGITAL</p>
+          <p class="description">
+            Turn your customers or fans to patrons by selling digital goods
+            verified with blockchain technology.
+          </p>
+        </div>
+        <div class="three">
+          <p class="subtitle">AUTHENTIC</p>
+          <p class="description">
+            Digitally sign your creation on LUV NFT permanently and verified
+            through the blockchain.
+          </p>
+        </div>
+        <div class="four">
+          <p class="subtitle">OWNERSHIP</p>
+          <p class="description">
+            Once you purchase your unique digital collectible, it's transferred
+            and stored in your digital wallet.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-info" id="contact">
+      <div class="body">
+        <div class="one">
+          <p class="title">LET'S BUILD</p>
+          <p class="description">
+            We partner with the top brands, athlete's, and creators to bring you
+            the hottest NFT drops.
+          </p>
+          <div class="email-info"><a href="#">info@luvnft.com</a></div>
+        </div>
+        <div class="two">
+          <div class="first-row">
+            <input placeholder="Full Name" class="full-name" />
+            <input placeholder="Email Address" class="email-address" />
+            <input placeholder="Your Website" class="your-website" />
+            <select class="injury"
+              ><option selected disabled>Select Injury</option>
+              <option>Brand Partnership</option>
+              <option>crypto art</option>
+              <option>music</option>
+              <option>photography</option>
+              <option>games</option>
+              <option>domains</option>
+              <option>memes</option>
+              <option>event fix</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <textarea
+            placeholder="Tell us more about you and what your creating?"
+            class="notes"
+          />
+          <button class="message">Send message</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="briefcase"><img src="images/home/briefcase(1) 1.png" /></div>
+
+    <!-- <div class="why">
+      <img src="images/home/why-title.svg" class="title" />
+      <div class="body">
+        <div v-for="(item, index) in whyUs" :key="index" class="item">
+          <div class="avatar">
+            <img :src="item.avatar" />
+          </div>
+          <p class="title">{{ item.title }}</p>
+          <p class="description">{{ item.description }}</p>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="contact">
+      <div class="left">
+        <p class="title lunch">LAUNCH 4/21</p>
+        <p class="description">
+          We partner with top brands, artists, athletes, and creators to bring
+          dope drops on-blockchain. Apply
+          <a href="https://forms.gle/13Qi1r2EBJaoc39T8">here</a>.
+        </p>
+      </div>
+      <div class="right">
+        <img src="images/home/rocket.png" class="title contact-email" />
+        <iframe src="https://api.elasticemail.com/form?lid=_gqT8YCXDfz5r4kCOLecrw2" height="350" />
+        <img src="images/home/contact-form-title.svg" class="title" />
+        <input type="text" />
+        <button type="button">Register</button> -->
+    <!-- </div>
+    </div> -->
+    <div class="footer-menu footer">
+      <div class="logo">
+        <a href="https://blkluv.org">
+          <img src="/images/home/footer-logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="nav-items">
+        <a href="#">HOME</a>
+        <a href="#">MARKET</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="https://luvnft.medium.com/">BLOG</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+      <div class="social-sites">
+        <a href="https://twitter.com/luvnft"
+          ><i class="social-icons fab fa-twitter fa-lg"></i
+        ></a>
+        <a href="#"><i class="social-icons fab fa-tiktok fa-lg"></i></a>
+        <a href="https://instagram.com/luvnft"
+          ><i class="social-icons fab fa-instagram fa-lg"></i
+        ></a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HOME',
+  methods: {
+    onGalleryClick: function() {
+      this.$router.push({ name: 'nft' });
+    },
+    onGalleryItemClick: function() {
+    },
+    onMintClick: function() {
+      this.$router.push({ name: 'mint' });
+    },
+  },
+  data() {
+    return {
+      isModalActive: false,
+      nft: [
+        {
+          number: '0.5100 KSM',
+          title: 'Crystal Card 1',
+          avatar: 'images/home/critical-card-1.png',
+          description: 'View NFT',
+          underline: 'images/home/underline.png'
+        },
+        {
+          number: '0.1019 KSM',
+          title: 'Crystal Card 2',
+          avatar: 'images/home/critical-card-2.png',
+          description: 'View NFT',
+          underline: 'images/home/underline.png'
+        },
+        {
+          number: '0.6120 KSM',
+          title: 'Crystal Card 3',
+          avatar: 'images/home/critical-card-3.png',
+          description: 'View NFT',
+          underline: 'images/home/underline.png'
+        }
+      ],
+      whyUs: [
+        {
+          title: 'GO DIGITAL',
+          avatar: 'images/home/why-1.png',
+          description:
+            'Turn your customers or fans into patrons by selling your digital goodies. Money is going digital, shouldn’t your products?'
+        },
+        {
+          title: 'NO MIDDLEMAN',
+          avatar: 'images/home/why-2.png',
+          description:
+            'Buy and sell what you LUV without the middleman fees. A true rewarding heart-to-heart connection.'
+        },
+        {
+          title: 'SPREAD LUV',
+          avatar: 'images/home/why-3.png',
+          description:
+            'Once you purchase a digital collectible, such as crypto art, you can resell it in our secondary marketplace to other collectors.'
+        }
+      ],
+      creators: {
+        title: 'CREATORS',
+        avatar: 'images/home/about-1.png',
+        description:
+          'We are looking for artists to empower the new creators economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUV fluencers.'
+      },
+      aboutUs: [
+        {
+          title: 'CREATORS',
+          avatar: 'images/home/about-1.png',
+          description:
+            'Ditigitally sign your work by creating a tokenized certificate using our blockchain technology. No longer will anyone profit on your trending creations.'
+        }
+        // {
+        //   title: 'SHOWCASE YOUR LUV MAGIC',
+        //   avatar: 'images/home/about-2.png',
+        //   description:
+        //     'Customize your profile to display your NFT collections, certified on the Polkadot blockchain, to patrons around the world. Crypto payments allow you to sell your digital goodies internationally. '
+        // },
+        // {
+        //   title: 'A TRIBE OF CREATORS',
+        //   avatar: 'images/home/about-3.png',
+        //   description:
+        //     'Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us will unite to invest in each other to build our future, blockchain by blockchain.'
+        // }
+      ]
+    };
+  }
+};
+</script>
+
+<style lang="scss" src="../../styles/home.scss"></style>
