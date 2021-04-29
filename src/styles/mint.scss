@@ -34,9 +34,20 @@
 
         width: 636px;
         height: 550px;
-        background: #201933;
-        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
-        border-radius: 30px;
+        // background: #201933;
+        // box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+        // border-radius: 30px;
+
+        padding: 72px 56px;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.01);
+        box-shadow: inset 0 39px 56px -56px rgba(255, 255, 255, 0.25),
+          inset 0 7px 21px 0 rgba(255, 255, 255, 0.2),
+          inset 0 -82px 68px 0 rgb(109 105 116 / 18%),
+          inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
+          inset 0 4px 18px 0 rgb(154 146 210 / 15%),
+          inset 0 1px 40px 0 rgb(227 222 255 / 15%);
+
         .event-ticket {
           outline: none;
           display: flex;
@@ -160,7 +171,7 @@
   .mint {
     flex: 8;
     margin-top: 0;
-    margin-bottom: 250px;
+    margin-bottom: 0px;
     position: relative;
     z-index: 999;
     display: flex;
@@ -192,9 +203,15 @@
 
           width: 636px;
           height: 550px;
-          background: #201933;
-          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
-          border-radius: 30px;
+          padding: 72px 56px;
+          border-radius: 50px;
+          background-color: rgba(255, 255, 255, 0.01);
+          box-shadow: inset 0 39px 56px -56px rgba(255, 255, 255, 0.25),
+            inset 0 7px 21px 0 rgba(255, 255, 255, 0.2),
+            inset 0 -82px 68px 0 rgb(109 105 116 / 18%),
+            inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
+            inset 0 4px 18px 0 rgb(154 146 210 / 15%),
+            inset 0 1px 40px 0 rgb(227 222 255 / 15%);
           .event-ticket {
             outline: none;
             display: flex;
@@ -320,7 +337,7 @@
   .mint {
     flex: 8;
     margin-top: 0;
-    margin-bottom: 250px;
+    margin-bottom: 0px;
     position: relative;
     z-index: 999;
     display: flex;
@@ -356,9 +373,15 @@
           margin-left: 0px;
           //   width: 636px;
           //   height: 550px;
-          background: #201933;
-          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
-          border-radius: 30px;
+          padding: 72px 56px;
+          border-radius: 50px;
+          background-color: rgba(255, 255, 255, 0.01);
+          box-shadow: inset 0 39px 56px -56px rgba(255, 255, 255, 0.25),
+            inset 0 7px 21px 0 rgba(255, 255, 255, 0.2),
+            inset 0 -82px 68px 0 rgb(109 105 116 / 18%),
+            inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
+            inset 0 4px 18px 0 rgb(154 146 210 / 15%),
+            inset 0 1px 40px 0 rgb(227 222 255 / 15%);
           .event-ticket {
             outline: none;
             display: flex;
@@ -690,7 +713,7 @@
   .mint {
     flex: 8;
     margin-top: 0;
-    margin-bottom: 250px;
+    margin-bottom: 0px;
     position: relative;
     z-index: 999;
     display: flex;
@@ -975,7 +998,7 @@
     .mint {
       flex: 8;
       margin-top: 0;
-      margin-bottom: 250px;
+      margin-bottom: 0px;
       position: relative;
       z-index: 999;
       margin-top: 160px;
@@ -1247,7 +1270,7 @@
     .mint {
       flex: 8;
       margin-top: 0;
-      margin-bottom: 250px;
+      margin-bottom: 0px;
       position: relative;
       z-index: 999;
       margin-top: 160px;

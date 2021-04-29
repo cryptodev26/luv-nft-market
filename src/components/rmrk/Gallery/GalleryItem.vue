@@ -932,7 +932,7 @@
           </div>
           <div class="hidden-tablet">
             <div class="button-container">
-              <a href="/rmrk/gallery" class="button-primary small w-button"
+              <a href="/rmrk/gallery" class="button-primary small button-fixed-width w-button"
                 >CONNECT WALLET</a
               >
             </div>
@@ -1125,16 +1125,16 @@
         <div class="w-layout-grid grid-shop-single">
           <div
             data-w-id="4d6525fe-d967-3dfa-fb1c-ba13ae59f034"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
+            style="display: flex; justify-content: center; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
           >
             <img
-              src="https://assets.website-files.com/605a8ad8853d7f026334c750/605c0ec4afa28ad7e0a97888_crystal-card-2-square-nft-webflow-template.png.png"
+              src="@/assets/critical-card-1.png"
               data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D"
               alt=""
               sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, (max-width: 1439px) 95vw, 1196px"
               srcset="
-                https://assets.website-files.com/605a8ad8853d7f026334c750/605c0ec4afa28ad7e0a97888_crystal-card-2-square-nft-webflow-template.png-p-500.png  500w,
-                https://assets.website-files.com/605a8ad8853d7f026334c750/605c0ec4afa28ad7e0a97888_crystal-card-2-square-nft-webflow-template.png.png       1273w
+                @/assets/critical-card-1.png  500w,
+                @/assets/critical-card-1.png       1273w
               "
               class="product-main-image"
             />
@@ -1251,7 +1251,7 @@
       <img
         src="https://assets.website-files.com/605a8ad8853d7fc62334c73e/605a9c8e59d1b810c572a570_blur-blob-nft-webflow-template.svg"
         loading="lazy"
-        style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
+        style="display:none;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
         data-w-id="35f848d6-59ca-e276-6ac6-f9662996a93d"
         alt=""
         class="blur-hero-shop"

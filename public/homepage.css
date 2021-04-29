@@ -5136,6 +5136,8 @@ figcaption {
   line-height: 20px;
 }
 
+
+
 .button-secondary {
   padding: 28px 48px;
   border-style: solid;
@@ -5177,6 +5179,10 @@ figcaption {
   -ms-flex: 0 auto;
   flex: 0 auto;
   border-width: 1px;
+}
+
+.button-fixed-width {
+  width: 222px !important;
 }
 
 .style-guide-button-container {
@@ -5229,7 +5235,7 @@ figcaption {
 }
 
 .nav-link {
-  font-weight: 700; 
+  font-weight: 700;
   -webkit-transition: color 350ms ease;
   transition: color 350ms ease;
   color: #fff;
@@ -5885,6 +5891,12 @@ figcaption {
   color: #fff;
 }
 
+.header-dropdown-toggle:hover {
+  color: #beef00;
+}
+
+
+
 .hero-grid {
   -ms-grid-columns: 1fr 0.6fr;
   grid-template-columns: 1fr 0.6fr;
@@ -6429,7 +6441,6 @@ figcaption {
   margin-top: 8px;
   /* background-color: rgba(255, 255, 255, 0.24); */
   background-image: linear-gradient(90deg, #beef00, #fe019a);
-
 }
 
 .underline {
@@ -6521,9 +6532,19 @@ figcaption {
 }
 
 .product-main-image {
-  height: 650px;
-  border-radius: 30px;
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+  width: 90vw;
+  /* height: 1200px; */
+  /* border-radius: 30px;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4); */
+  padding: 100px 156px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.01);
+  box-shadow: inset 0 39px 56px -56px rgba(255, 255, 255, 0.25),
+    inset 0 7px 21px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -82px 68px 0 rgb(109 105 116 / 18%),
+    inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
+    inset 0 4px 18px 0 rgb(154 146 210 / 15%),
+    inset 0 1px 40px 0 rgb(227 222 255 / 15%);
 }
 
 .product-title {
@@ -6896,6 +6917,11 @@ figcaption {
     font-size: 48px;
     line-height: 56px;
   }
+
+  .product-main-image {
+    width: 90vw !important;
+    /* height: 800px; */
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -7211,6 +7237,8 @@ figcaption {
     font-size: 28px;
     line-height: 32px;
   }
+
+  
 
   .hero-grid {
     -ms-grid-columns: 1fr 0.25fr;
@@ -7599,7 +7627,8 @@ figcaption {
   }
 
   .section.product-hero {
-    padding-top: 140px;
+    position: relative;
+    padding-top: 140px !important;
     padding-bottom: 80px;
   }
 
@@ -7951,6 +7980,8 @@ figcaption {
   }
 
   .section.product-hero {
+    position: relative;
+    padding-top: 140px !important;
     padding-bottom: 40px;
   }
 
@@ -8174,9 +8205,10 @@ figcaption {
 
 @media screen and (max-width: 767px) {
   .product-main-image {
-    height: 550px;
-    border-radius: 30px;
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    width: 90vw;
+    /* height: 850px; */
+    /* border-radius: 30px;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4); */
   }
   #w-node-_976f08fa-4bd7-5cb4-b53d-2187f5f1194b-0634c740 {
     -ms-grid-column: span 1;

@@ -877,7 +877,7 @@
             </div>
             <div class="hidden-tablet">
               <div class="button-container">
-                <a href="/rmrk/gallery" class="button-primary small w-button">CONNECT WALLET</a>
+                <a href="/rmrk/gallery" class="button-primary small button-fixed-width w-button">CONNECT WALLET</a>
               </div>
             </div>
           </div>

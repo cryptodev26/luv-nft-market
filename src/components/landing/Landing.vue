@@ -960,7 +960,7 @@
             </h1>
             <p class="paragraph-large">
               A tribe owned NFT marketplace to create, share, sell and buy digital
-              collectives.
+              collectibles.
             </p>
             <div class="mg-top-48px">
               <div class="button-container">
@@ -1301,7 +1301,7 @@
           <div class="card-crystal">
             <h3>NO GAS FEES</h3>
             <p class="paragraph-large">
-              LUV NFT uses Polkadot/Kusma network which allows us to offer
+              LUV NFT uses Polkadot/Kusama network which allows us to offer
               gas-free minting and trading.
             </p>
           </div>
