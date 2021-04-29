@@ -403,12 +403,12 @@
                 <li class="nav-item-wrapper">
                   <a href="/" aria-current="page" class="nav-link w--current">HOME</a>
                 </li>
-                <!-- <li class="nav-item-wrapper">
+                <li class="nav-item-wrapper">
                   <a href="/rmrk/mint" class="nav-link">MARKET</a>
                 </li>
                 <li class="nav-item-wrapper">
                   <a href="/rmrk/gallery" class="nav-link">GALLERY</a>
-                </li> -->
+                </li>
                 <li class="nav-item-wrapper">
                   <a href="https://luvnft.medium.com/" class="nav-link">BLOG</a>
                 </li>
@@ -1497,12 +1497,12 @@
                     >HOME</a
                   >
                 </li>
-                <!-- <li class="footer-nav-item">
+                <li class="footer-nav-item">
                   <a href="/rmrk/mint" class="nav-link footer">MARKET</a>
                 </li>
                 <li class="footer-nav-item">
                   <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
-                </li> -->
+                </li>
                 <li class="footer-nav-item">
                   <a href="https://luvnft.medium.com/" class="nav-link footer">BLOG</a>
                 </li>
