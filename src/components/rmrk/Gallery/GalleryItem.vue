@@ -1502,7 +1502,7 @@
         style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
         class="container-medium-900px w-container"
       >
-        <h2 class="heading-h3-size text-center">History</h2>
+        <h3 class="heading-h3-size text-center">History</h3>
         <div class="item-description-container">
           <div class="rich-text w-richtext">
             <p style="overflow:hidden;">

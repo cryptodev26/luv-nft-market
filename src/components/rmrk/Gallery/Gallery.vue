@@ -1069,7 +1069,7 @@
           >
             <div class="container-medium-730px">
               <div class="text-center">
-                <h2 style="">LUV <span style="color:#beef00;">N</span><span style="color:#fe019a;">FT</span> Gallery</h2>
+                <h2 style="">LUV <span style="color:#beef00;">N</span><span style="color:#fe019a;">FT</span> GALLERY</h2>
               </div>
             </div>
           </div>
@@ -1095,7 +1095,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="https://assets.website-files.com/605a8ad8853d7f026334c750/605aae13deb0d3809bc1d853_crystal-card-1-nft-webflow-template.png"
+                    src="/images/home/critical-card-1.png"
                     alt=""
                   />
                 </a>
@@ -1103,7 +1103,7 @@
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
                 >
-                  $ 2,500.00 USD
+                  0.5100 KSM
                 </div>
                 <a href="#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 1</h3></a
@@ -1126,7 +1126,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="https://assets.website-files.com/605a8ad8853d7f026334c750/605aae1ce85be2cfdd7fa65d_crystal-card-2-nft-webflow-template.png"
+                    src="/images/home/critical-card-2.png"
                     alt=""
                   />
                 </a>
@@ -1134,7 +1134,7 @@
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
                 >   
-                  $ 2,500.00 USD
+                  0.1019 KSM
                 </div>
                 <a href="#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 2</h3></a
@@ -1157,7 +1157,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="https://assets.website-files.com/605a8ad8853d7f026334c750/605aae239142f2615382bce1_crystal-card-3-nft-webflow-template.png"
+                    src="/images/home/critical-card-1.png"
                     alt=""
                   />
                 </a>
@@ -1165,7 +1165,7 @@
                   data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
                   class="product-card-pricing"
                 >
-                  $ 2,500.00 USD
+                  0.6120 KSM
                 </div>
                 <a href="#" class="link-product-container w-inline-block"
                   ><h3 class="link-product">Crystal Card 3</h3></a
