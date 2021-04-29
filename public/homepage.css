@@ -5229,6 +5229,7 @@ figcaption {
 }
 
 .nav-link {
+  font-weight: 700; 
   -webkit-transition: color 350ms ease;
   transition: color 350ms ease;
   color: #fff;
@@ -5237,6 +5238,7 @@ figcaption {
 }
 
 .nav-link.footer {
+  font-weight: 700;
   display: block;
   padding-top: 0px;
   border-top-width: 0px;
@@ -5878,6 +5880,7 @@ figcaption {
 }
 
 .header-dropdown-toggle {
+  font-weight: 700;
   padding: 0px;
   color: #fff;
 }

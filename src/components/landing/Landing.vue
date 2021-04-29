@@ -438,7 +438,7 @@
                     class="header-dropdown w-dropdown"
                   >
                     <div class="header-dropdown-toggle w-dropdown-toggle header-nav-item">
-                      <a class="nav-link">CONTACT</a>
+                      <a class="nav-link" style="font-weight:700;">CONTACT</a>
                     </div>
                     <!-- <nav class="mega-menu-container w-dropdown-list">
                       <div class="menu-grid-wrapper">
