@@ -956,7 +956,7 @@
                 opacity: 0;
               "
           >
-            <h2 style="width:90vw;">
+            <h2 class="homepage-heading" style="width:90vw;">
               <span style="color:#beef00 !important;">N</span
               ><span style="color:#FE019A;">FT</span> MARKETPLACE<br />
               BUILT ON POLKADOT<br />
