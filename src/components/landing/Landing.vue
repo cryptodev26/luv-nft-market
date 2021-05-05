@@ -1092,9 +1092,7 @@
           >
             <h2>CREATORS</h2>
             <p class="paragraph-large">
-              We are looking for artists to empower the new creator's economy.
-              LUV NFT is still in early access, onboarding only a small number
-              of hand-picked creators and LUVfluencers.
+              Claim ownership and monetize your unique content with no middleman. LUV NFT is empowering the creator's economy. We're looking for creator's.
             </p>
             <div class="mg-top-48px">
               <div class="button-container">
