@@ -437,7 +437,9 @@
                     data-w-id="45c82122-ac7e-c995-1427-8593ed75fc00"
                     class="header-dropdown w-dropdown"
                   >
-                    <div class="header-dropdown-toggle w-dropdown-toggle header-nav-item">
+                    <div
+                      class="header-dropdown-toggle w-dropdown-toggle header-nav-item"
+                    >
                       <a class="nav-link" style="font-weight:700;">CONTACT</a>
                     </div>
                     <!-- <nav class="mega-menu-container w-dropdown-list">
@@ -954,14 +956,22 @@
                 opacity: 0;
               "
           >
-            <h1>
-              I LUV MY <span style="color:#beef00 !important;">N</span
-              ><span style="color:#FE019A;">FT</span>
-            </h1>
+            <h2 style="width:90vw;">
+              <span style="color:#beef00 !important;">N</span
+              ><span style="color:#FE019A;">FT</span> MARKETPLACE<br />
+              BUILT ON POLKADOT<br />
+              SMART CHAIN
+            </h2>
             <p class="paragraph-large">
-              A tribe owned NFT marketplace to create, share, sell and buy digital
-              collectibles.
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> No gas fees for minting or transfers
             </p>
+            <p class="paragraph-large">
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Create, Buy and Sell NFTs
+            </p>
+            <p class="paragraph-large">
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Earn $KSM and $UNQ for each NFT sale
+            </p>
+
             <div class="mg-top-48px">
               <div class="button-container">
                 <a
@@ -1163,10 +1173,7 @@
         >
           <div role="list" class="products-container w-dyn-items">
             <div role="listitem" class="w-dyn-item">
-              <a
-                href="#"
-                class="product-card-image w-inline-block"
-              >
+              <a href="#" class="product-card-image w-inline-block">
                 <img src="@/assets/critical-card-1.png" alt="" />
               </a>
               <div
@@ -1191,10 +1198,7 @@
               </a>
             </div>
             <div role="listitem" class="w-dyn-item">
-              <a
-                href="#"
-                class="product-card-image w-inline-block"
-              >
+              <a href="#" class="product-card-image w-inline-block">
                 <img src="@/assets/critical-card-2.png" alt="" />
               </a>
               <div
@@ -1219,10 +1223,7 @@
               </a>
             </div>
             <div role="listitem" class="w-dyn-item">
-              <a
-                href="#"
-                class="product-card-image w-inline-block"
-              >
+              <a href="#" class="product-card-image w-inline-block">
                 <img src="@/assets/critical-card-3.png" alt="" />
               </a>
               <div
@@ -1278,8 +1279,8 @@
             "
           class="top-content"
         >
-          <h2 class="mg-bottom-0">
-            WHY LUV <span style="color:#beef00 !important;">N</span
+          <h2 class="mg-bottom-0 text-center">
+            HOW TO CREATE A <span style="color:#beef00 !important;">N</span
             ><span style="color:#FE019A;">FT</span>
           </h2>
         </div>
@@ -1299,31 +1300,27 @@
           class="w-layout-grid grid-my-work"
         >
           <div class="card-crystal">
-            <h3>NO GAS FEES</h3>
+            <h4>1. CONNECT YOUR WALLET</h4>
             <p class="paragraph-large">
-              LUV NFT uses Polkadot/Kusama network which allows us to offer
-              gas-free minting and trading.
+              Use the polkadot desktop browser extension <a style="color:#bebdd4;" href="https://polkadot.js.org/extension">https://polkadot.js.org/extension</a> to connect  your wallet.
             </p>
           </div>
           <div class="card-crystal">
-            <h3>GO DIGITAL</h3>
+            <h4>2. CREATE YOUR NFT</h4>
             <p class="paragraph-large">
-              Turn your customers or fans to patrons by selling digital goods
-              verified with blockchain technology.
+              Create a name, then upload your NFT.
             </p>
           </div>
           <div class="card-crystal">
-            <h3>AUTHENTIC</h3>
+            <h4>3. START EARNING KSM</h4>
             <p class="paragraph-large">
-              Digitally sign your creation on LUV NFT permanently and verified
-              through the blockchain.
+              Earn $KSM and $UNQ for all your NFTs that you sell. ($BTC $ETH $LUV coming soon)
             </p>
           </div>
           <div class="card-crystal">
-            <h3>OWNERSHIP</h3>
+            <h4>4. SPREAD LUV</h4>
             <p class="paragraph-large">
-              Once you purchase your unique digital collectible, it's
-              transferred and stored in your digital wallet.
+              Our mission is #TeamLUV and we no longer have to compete with each other in the creator's economy.
             </p>
           </div>
         </div>
