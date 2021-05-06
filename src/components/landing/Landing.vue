@@ -1456,7 +1456,7 @@
                           <option value="">Photography</option>
                           <option value="">Games</option>
                           <option value="">Domains</option>
-                          <option value="">Event Fix</option>
+                          <option value="">Event Tickets</option>
                           <option value="">Other</option>
                         </select>
                       </div>
