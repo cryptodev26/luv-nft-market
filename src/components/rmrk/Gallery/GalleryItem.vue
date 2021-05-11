@@ -426,7 +426,7 @@
                 <a href="/rmrk/gallery" class="nav-link">GALLERY</a>
               </li>
               <li class="nav-item-wrapper">
-                <a href="https://luvnft.medium.com/" class="nav-link">BLOG</a>
+                <a href="https://luvnft.medium.com/" target="_blank"  class="nav-link">BLOG</a>
               </li>
               <li class="nav-item-wrapper">
                 <div
@@ -1767,7 +1767,7 @@
                 <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
               </li>
               <li class="footer-nav-item">
-                <a href="https://luvnft.medium.com/" class="nav-link footer"
+                <a href="https://luvnft.medium.com/" target="_blank"  target="_blank" class="nav-link footer"
                   >BLOG</a
                 >
               </li>
@@ -1779,10 +1779,10 @@
           <div>
             <ul role="list" class="list-social-media">
               <li class="list-item-social-media">
-                  <a href="htts://twitter.com/luvnft"><i class="social-media-icon fab fa-twitter fa-lg"></i></a>
+                  <a href="https://twitter.com/luvnft"><i class="social-media-icon fab fa-twitter fa-lg"></i></a>
                 </li>
                 <li class="list-item-social-media">
-                  <a href="https://www.tiktok.com/"><i class="social-media-icon fab fa-tiktok fa-lg"></i></a>
+                  <a href="https://vm.tiktok.com/ZMebNrojm/"><i class="social-media-icon fab fa-tiktok fa-lg"></i></a>
                 </li>
                 <li class="list-item-social-media">
                   <a href="https://www.instagram.com/luvnft"><i class="social-media-icon fab fa-instagram fa-lg"></i></a>

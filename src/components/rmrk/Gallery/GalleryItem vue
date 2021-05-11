@@ -11,7 +11,7 @@
           <li><a href="/">HOME</a></li>
           <li><a href="#">MARKET</a></li>
           <li><a href="#gallery">GALLERY</a></li>
-          <li><a href="https://luvnft.medium.com/">BLOG</a></li>
+          <li><a href="https://luvnft.medium.com/" target="_blank" >BLOG</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
@@ -32,7 +32,7 @@
             <li><a href="/">HOME</a></li>
             <li><a href="#">MARKET</a></li>
             <li><a href="#">GALLERY</a></li>
-            <li><a href="https://luvnft.medium.com/">BLOG</a></li>
+            <li><a href="https://luvnft.medium.com/" target="_blank" >BLOG</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
@@ -90,7 +90,7 @@
         <a href="#">HOME</a>
         <a href="#">MARKET</a>
         <a href="#gallery">GALLERY</a>
-        <a href="https://luvnft.medium.com/">BLOG</a>
+        <a href="https://luvnft.medium.com/" target="_blank" >BLOG</a>
         <a href="#contact">CONTACT</a>
       </div>
       <div class="social-sites">

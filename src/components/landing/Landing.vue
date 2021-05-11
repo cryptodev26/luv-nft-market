@@ -428,7 +428,7 @@
                   <a href="/rmrk/gallery" class="nav-link">GALLERY</a>
                 </li> -->
                 <li class="nav-item-wrapper header-nav-item">
-                  <a href="https://luvnft.medium.com/" class="nav-link">BLOG</a>
+                  <a href="https://luvnft.medium.com/" target="_blank"  class="nav-link">BLOG</a>
                 </li>
                 <li class="nav-item-wrapper">
                   <div
@@ -966,7 +966,7 @@
               <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> No gas fees for minting or transfers
             </p>
             <p class="paragraph-large">
-              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Create, Buy and Sell NFTs
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Create, Buy, and Sell NFTs
             </p>
             <p class="paragraph-large">
               <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Earn $KSM and $UNQ for each NFT sale
@@ -1278,7 +1278,7 @@
           class="top-content"
         >
           <h2 class="mg-bottom-0 text-center">
-            HOW TO CREATE A <span style="color:#beef00 !important;">N</span
+            HOW TO CREATE AN <span style="color:#beef00 !important;">N</span
             ><span style="color:#FE019A;">FT</span>
           </h2>
         </div>
@@ -1559,7 +1559,7 @@
                   <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
                 </li> -->
               <li class="footer-nav-item">
-                <a href="https://luvnft.medium.com/" class="nav-link footer"
+                <a href="https://luvnft.medium.com/" target="_blank"  class="nav-link footer"
                   >BLOG</a
                 >
               </li>
@@ -1571,12 +1571,12 @@
           <div>
             <ul role="list" class="list-social-media">
               <li class="list-item-social-media">
-                <a href="htts://twitter.com/luvnft"
+                <a href="https://twitter.com/luvnft"
                   ><i class="social-media-icon fab fa-twitter fa-lg"></i
                 ></a>
               </li>
               <li class="list-item-social-media">
-                <a href="https://www.tiktok.com/"
+                <a href="https://vm.tiktok.com/ZMebNrojm/"
                   ><i class="social-media-icon fab fa-tiktok fa-lg"></i
                 ></a>
               </li>
