@@ -1767,7 +1767,7 @@
                 <a href="/rmrk/gallery" class="nav-link footer">GALLERY</a>
               </li>
               <li class="footer-nav-item">
-                <a href="https://luvnft.medium.com/" target="_blank"  target="_blank" class="nav-link footer"
+                <a href="https://luvnft.medium.com/" target="_blank"  class="nav-link footer"
                   >BLOG</a
                 >
               </li>
