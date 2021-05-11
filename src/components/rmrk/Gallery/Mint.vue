@@ -1568,7 +1568,7 @@ export default class Gallery extends Vue {
         id: '1',
         number: '0.5100 KSM',
         title: 'Crystal Card 1',
-        avatar: '/images/home/critical-card-1.png',
+        avatar: '/images/home/critical-card-1.webp',
         description: 'View NFT',
         underline: '/images/home/underline.png'
       },
@@ -1576,7 +1576,7 @@ export default class Gallery extends Vue {
         id: '2',
         number: '0.1019 KSM',
         title: 'Crystal Card 2',
-        avatar: '/images/home/critical-card-2.png',
+        avatar: '/images/home/critical-card-2.webp',
         description: 'View NFT',
         underline: '/images/home/underline.png'
       },
@@ -1584,7 +1584,7 @@ export default class Gallery extends Vue {
         id: '3',
         number: '0.6120 KSM',
         title: 'Crystal Card 3',
-        avatar: '/images/home/critical-card-3.png',
+        avatar: '/images/home/critical-card-3.webp',
         description: 'View NFT',
         underline: '/images/home/underline.png'
       }

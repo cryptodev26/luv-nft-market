@@ -1172,7 +1172,7 @@
           <div role="list" class="products-container w-dyn-items">
             <div role="listitem" class="w-dyn-item">
               <a href="#" class="product-card-image w-inline-block">
-                <img src="@/assets/critical-card-1.png" alt="" />
+                <img src="@/assets/critical-card-1.webp" alt="" />
               </a>
               <div
                 data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
@@ -1197,7 +1197,7 @@
             </div>
             <div role="listitem" class="w-dyn-item">
               <a href="#" class="product-card-image w-inline-block">
-                <img src="@/assets/critical-card-2.png" alt="" />
+                <img src="@/assets/critical-card-2.webp" alt="" />
               </a>
               <div
                 data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
@@ -1222,7 +1222,7 @@
             </div>
             <div role="listitem" class="w-dyn-item">
               <a href="#" class="product-card-image w-inline-block">
-                <img src="@/assets/critical-card-3.png" alt="" />
+                <img src="@/assets/critical-card-3.webp" alt="" />
               </a>
               <div
                 data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
@@ -1621,21 +1621,21 @@ export default {
         {
           number: '0.5100 KSM',
           title: 'Crystal Card 1',
-          avatar: 'images/home/critical-card-1.png',
+          avatar: 'images/home/critical-card-1.webp',
           description: 'View NFT',
           underline: 'images/home/underline.png'
         },
         {
           number: '0.1019 KSM',
           title: 'Crystal Card 2',
-          avatar: 'images/home/critical-card-2.png',
+          avatar: 'images/home/critical-card-2.webp',
           description: 'View NFT',
           underline: 'images/home/underline.png'
         },
         {
           number: '0.6120 KSM',
           title: 'Crystal Card 3',
-          avatar: 'images/home/critical-card-3.png',
+          avatar: 'images/home/critical-card-3.webp',
           description: 'View NFT',
           underline: 'images/home/underline.png'
         }

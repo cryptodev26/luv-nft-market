@@ -1128,13 +1128,13 @@
             style="display: flex; justify-content: center; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
           >
             <img
-              src="@/assets/critical-card-1.png"
+              src="@/assets/critical-card-1.webp"
               data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D"
               alt=""
               sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, (max-width: 1439px) 95vw, 1196px"
               srcset="
-                @/assets/critical-card-1.png  500w,
-                @/assets/critical-card-1.png       1273w
+                @/assets/critical-card-1.webp  500w,
+                @/assets/critical-card-1.webp       1273w
               "
               class="product-main-image"
             />

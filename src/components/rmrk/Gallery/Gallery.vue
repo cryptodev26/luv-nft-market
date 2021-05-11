@@ -1095,7 +1095,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="/images/home/critical-card-1.png"
+                    src="/images/home/critical-card-1.webp"
                     alt=""
                   />
                 </a>
@@ -1126,7 +1126,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="/images/home/critical-card-2.png"
+                    src="/images/home/critical-card-2.webp"
                     alt=""
                   />
                 </a>
@@ -1157,7 +1157,7 @@
                   class="product-card-image w-inline-block"
                 >
                   <img
-                    src="/images/home/critical-card-1.png"
+                    src="/images/home/critical-card-1.webp"
                     alt=""
                   />
                 </a>
@@ -1529,21 +1529,21 @@ export default {
         {
           number: '0.5100 KSM',
           title: 'Crystal Card 1',
-          avatar: 'images/home/critical-card-1.png',
+          avatar: 'images/home/critical-card-1.webp',
           description: 'View NFT',
           underline: 'images/home/underline.png'
         },
         {
           number: '0.1019 KSM',
           title: 'Crystal Card 2',
-          avatar: 'images/home/critical-card-2.png',
+          avatar: 'images/home/critical-card-2.webp',
           description: 'View NFT',
           underline: 'images/home/underline.png'
         },
         {
           number: '0.6120 KSM',
           title: 'Crystal Card 3',
-          avatar: 'images/home/critical-card-3.png',
+          avatar: 'images/home/critical-card-3.webp',
           description: 'View NFT',
           underline: 'images/home/underline.png'
         }
