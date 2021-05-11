@@ -1627,26 +1627,26 @@ export default {
       ],
       creators: {
         title: 'CREATORS',
-        avatar: 'images/home/about-1.png',
+        avatar: 'images/home/about-1.webp',
         description:
           'We are looking for artists to empower the new creators economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUV fluencers.'
       },
       aboutUs: [
         {
           title: 'CREATORS',
-          avatar: 'images/home/about-1.png',
+          avatar: 'images/home/about-1.webp',
           description:
             'Ditigitally sign your work by creating a tokenized certificate using our blockchain technology. No longer will anyone profit on your trending creations.'
         }
         // {
         //   title: 'SHOWCASE YOUR LUV MAGIC',
-        //   avatar: 'images/home/about-2.png',
+        //   avatar: 'images/home/about-2.webp',
         //   description:
         //     'Customize your profile to display your NFT collections, certified on the Polkadot blockchain, to patrons around the world. Crypto payments allow you to sell your digital goodies internationally. '
         // },
         // {
         //   title: 'A TRIBE OF CREATORS',
-        //   avatar: 'images/home/about-3.png',
+        //   avatar: 'images/home/about-3.webp',
         //   description:
         //     'Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us will unite to invest in each other to build our future, blockchain by blockchain.'
         // }

@@ -4,7 +4,7 @@
       <div class="card-image" v-if="image">
         <b-image
           :src="image"
-          :src-fallback="require('@/assets/kodadot_logo_v1_transparent_400px.png')"
+          :src-fallback="require('@/assets/kodadot_logo_v1_transparent_400px.webp')"
           alt="Simple image"
           ratio="1by1"
         ></b-image>
@@ -12,7 +12,7 @@
 
       <div v-else class="card-image">
         <b-image
-          :src="require('@/assets/kodadot_logo_v1_transparent_400px.png')"
+          :src="require('@/assets/kodadot_logo_v1_transparent_400px.webp')"
           alt="Simple image"
           ratio="1by1"
         ></b-image>

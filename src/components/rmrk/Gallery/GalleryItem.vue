@@ -16,7 +16,7 @@
             aria-current="page"
             class="brand-logo w-nav-brand w--current"
           >
-            <img src="@/assets/logo.png" alt="" class="header-logo" />
+            <img src="@/assets/logo.webp" alt="" class="header-logo" />
           </a>
         </div>
         <div class="nav-container">
@@ -994,7 +994,7 @@
         class="blob-home-hero"
       />
       <img
-        src="@/assets/1.png"
+        src="@/assets/1.webp"
         loading="lazy"
         width="368.5"
         style="
@@ -1013,7 +1013,7 @@
         class="bubble hero-home"
       />
       <img
-        src="@/assets/about-2.png"
+        src="@/assets/about-2.webp"
         data-w-id="554897b1-25e1-e3a4-3605-133d21b38602"
         style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -1048,7 +1048,7 @@
               class="bubble about-me"
             />
             <img
-              src="@/assets/about-1.png"
+              src="@/assets/about-1.webp"
               loading="lazy"
               sizes="(max-width: 479px) 82vw, (max-width: 767px) 85vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 1186.0751953125px"
               alt=""
@@ -1101,7 +1101,7 @@
         </div>
       </div>
       <img
-        src="@/assets/about-3.png"
+        src="@/assets/about-3.webp"
         loading="lazy"
         style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -1749,7 +1749,7 @@
               aria-current="page"
               class="footer-logo-container w-inline-block w--current"
             >
-              <img src="@/assets/logo.png" alt="" class="footer-logo" />
+              <img src="@/assets/logo.webp" alt="" class="footer-logo" />
             </a>
             <ul role="list" class="footer-nav">
               <li class="footer-nav-item">

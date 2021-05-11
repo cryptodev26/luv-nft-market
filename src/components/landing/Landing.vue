@@ -15,7 +15,7 @@
             aria-current="page"
             class="brand-logo w-nav-brand w--current"
           >
-            <img src="@/assets/logo.png" alt="" class="header-logo" />
+            <img src="@/assets/logo.webp" alt="" class="header-logo" />
           </a>
           <div class="nav-container">
             <ul role="list" class="cart-desktop">
@@ -963,13 +963,13 @@
               SMART CHAIN
             </h2>
             <p class="paragraph-large">
-              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> No gas fees for minting or transfers
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.webp"> No gas fees for minting or transfers
             </p>
             <p class="paragraph-large">
-              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Create, Buy, and Sell NFTs
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.webp"> Create, Buy, and Sell NFTs
             </p>
             <p class="paragraph-large">
-              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.png"> Earn $KSM and $UNQ for each NFT sale
+              <img style="width: 22px; height: 22px; margin-bottom:8px;" src="@/assets/smiling-face-with-heart-eyes_1f60d.webp"> Earn $KSM and $UNQ for each NFT sale
             </p>
 
             <div class="mg-top-48px">
@@ -1002,7 +1002,7 @@
         class="blob-home-hero"
       />
       <img
-        src="@/assets/1.png"
+        src="@/assets/1.webp"
         loading="lazy"
         width="368.5"
         style="
@@ -1021,7 +1021,7 @@
         class="bubble hero-home"
       />
       <img
-        src="@/assets/about-2.png"
+        src="@/assets/about-2.webp"
         data-w-id="554897b1-25e1-e3a4-3605-133d21b38602"
         style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -1055,7 +1055,7 @@
               class="bubble about-me"
             />
             <img
-              src="@/assets/about-1.png"
+              src="@/assets/about-1.webp"
               loading="lazy"
               sizes="(max-width: 479px) 82vw, (max-width: 767px) 85vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 1186.0751953125px"
               alt=""
@@ -1106,7 +1106,7 @@
         </div>
       </div>
       <img
-        src="@/assets/about-3.png"
+        src="@/assets/about-3.webp"
         loading="lazy"
         style="
             -webkit-transform: translate3d(0, 0, 0) scale3d(0.97, 0.97, 1) rotateX(0) rotateY(0)
@@ -1541,7 +1541,7 @@
               aria-current="page"
               class="footer-logo-container w-inline-block w--current"
             >
-              <img src="@/assets/logo.png" alt="" class="footer-logo" />
+              <img src="@/assets/logo.webp" alt="" class="footer-logo" />
             </a>
             <ul role="list" class="footer-nav">
               <li class="footer-nav-item">
@@ -1662,26 +1662,26 @@ export default {
       ],
       creators: {
         title: 'CREATORS',
-        avatar: 'images/home/about-1.png',
+        avatar: 'images/home/about-1.webp',
         description:
           'We are looking for artists to empower the new creators economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUV fluencers.'
       },
       aboutUs: [
         {
           title: 'CREATORS',
-          avatar: 'images/home/about-1.png',
+          avatar: 'images/home/about-1.webp',
           description:
             'Ditigitally sign your work by creating a tokenized certificate using our blockchain technology. No longer will anyone profit on your trending creations.'
         }
         // {
         //   title: 'SHOWCASE YOUR LUV MAGIC',
-        //   avatar: 'images/home/about-2.png',
+        //   avatar: 'images/home/about-2.webp',
         //   description:
         //     'Customize your profile to display your NFT collections, certified on the Polkadot blockchain, to patrons around the world. Crypto payments allow you to sell your digital goodies internationally. '
         // },
         // {
         //   title: 'A TRIBE OF CREATORS',
-        //   avatar: 'images/home/about-3.png',
+        //   avatar: 'images/home/about-3.webp',
         //   description:
         //     'Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us will unite to invest in each other to build our future, blockchain by blockchain.'
         // }

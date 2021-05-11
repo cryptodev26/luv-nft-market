@@ -44,7 +44,7 @@
     </div>
 
     <div class="heart">
-      <img src="/images/home/1.png" />
+      <img src="/images/home/1.webp" />
     </div>
 
     <div class="globe"><img src="/images/home/luv nft marketplace gallery 1.png" /></div>
@@ -111,7 +111,7 @@
                 <div v-else class="card-image">
                   <b-image
                     :src="
-                      require('@/assets/kodadot_logo_v1_transparent_400px.png')
+                      require('@/assets/kodadot_logo_v1_transparent_400px.webp')
                     "
                     alt="Simple image"
                     ratio="1by1"

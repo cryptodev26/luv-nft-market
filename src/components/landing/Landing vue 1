@@ -49,7 +49,7 @@
     <div class="back-highlight-6"></div>
 
     <div class="heart">
-      <img id="heartId" src="images/home/1.png" />
+      <img id="heartId" src="images/home/1.webp" />
     </div>
 
     <div class="banner">
@@ -68,7 +68,7 @@
       </div>
     </div>
 
-    <div class="globe"><img src="images/home/about-2.png" /></div>
+    <div class="globe"><img src="images/home/about-2.webp" /></div>
 
     <div class="about">
       <div class="avatar">
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div class="gallery"><img src="images/home/about-3.png" /></div>
+    <div class="gallery"><img src="images/home/about-3.webp" /></div>
 
     <div class="nft-gallery">
       <img src="images/home/why-title.svg" class="title" />
@@ -287,26 +287,26 @@ export default {
       ],
       creators: {
         title: 'CREATORS',
-        avatar: 'images/home/about-1.png',
+        avatar: 'images/home/about-1.webp',
         description:
           'We are looking for artists to empower the new creators economy. LUV NFT is still in early access, onboarding only a small number of hand-picked creators and LUV fluencers.'
       },
       aboutUs: [
         {
           title: 'CREATORS',
-          avatar: 'images/home/about-1.png',
+          avatar: 'images/home/about-1.webp',
           description:
             'Ditigitally sign your work by creating a tokenized certificate using our blockchain technology. No longer will anyone profit on your trending creations.'
         }
         // {
         //   title: 'SHOWCASE YOUR LUV MAGIC',
-        //   avatar: 'images/home/about-2.png',
+        //   avatar: 'images/home/about-2.webp',
         //   description:
         //     'Customize your profile to display your NFT collections, certified on the Polkadot blockchain, to patrons around the world. Crypto payments allow you to sell your digital goodies internationally. '
         // },
         // {
         //   title: 'A TRIBE OF CREATORS',
-        //   avatar: 'images/home/about-3.png',
+        //   avatar: 'images/home/about-3.webp',
         //   description:
         //     'Only %1 of our tribe has ever received investor capital, therefore the remaining 99% of us will unite to invest in each other to build our future, blockchain by blockchain.'
         // }

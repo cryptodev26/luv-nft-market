@@ -10,7 +10,7 @@
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
-          src="@/assets/logo.png"
+          src="@/assets/logo.webp"
           alt="First NFT market explorer on Kusama and Polkadot"
         />
       </b-navbar-item>
