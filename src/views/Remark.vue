@@ -18,17 +18,17 @@
   </div>
 </template>
 
-<script lang="ts" >
-import { Component, Vue } from "vue-property-decorator";
-const Collection = () => import("@/components/rmrk/Create/Create.vue");
-const NFT = () => import("@/components/rmrk/Create/CreateToken.vue");
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+const Collection = () => import('@/components/rmrk/Create/Create.vue');
+const NFT = () => import('@/components/rmrk/Create/CreateToken.vue');
 
 const components = { Collection, NFT };
 
 @Component({ components })
 export default class Remark extends Vue {
   public activeTab: number = 0;
-  public components: string[] = ["Collection", "NFT"];
+  public components: string[] = ['Collection', 'NFT'];
 }
 </script>
 <style>
@@ -38,7 +38,7 @@ export default class Remark extends Vue {
   color: #000 !important;
   font-family: 'Archivo', sans-serif !important;
 }
-.tabs.is-toggle li a{
+.tabs.is-toggle li a {
   background-color: white;
 }
 .b-tabs .tab-content {

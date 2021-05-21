@@ -17,13 +17,13 @@
   </p>
 </template>
 
-<script lang="ts" >
-import { Component, Prop, Vue, Watch } from "vue-property-decorator";
+<script lang="ts">
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
 
 @Component({})
 export default class Tooltip extends Vue {
   @Prop() public label!: string;
-  @Prop({ default: "is-large" }) public iconsize!: string;
+  @Prop({ default: 'is-large' }) public iconsize!: string;
 }
 </script>
 <style scoped>

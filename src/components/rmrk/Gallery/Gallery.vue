@@ -1516,10 +1516,11 @@
 export default {
   name: 'HOME',
   methods: {
-    onGalleryClick: function() {
+    onGalleryClick() {
       this.$router.push({ name: 'nft' });
     },
-    onGalleryItemClick: function() {
+    onGalleryItemClick() {
+      console.log('')
     }
   },
   data() {

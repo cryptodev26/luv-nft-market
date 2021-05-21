@@ -7,7 +7,11 @@
           alt="First NFT market explorer on Kusama and Polkadot"
           class="ico-media"
         />
-        <span class="file-label" style="margin-left:35px;letter-spacing:1.1px">{{ label }}</span>
+        <span
+          class="file-label"
+          style="margin-left:35px;letter-spacing:1.1px"
+          >{{ label }}</span
+        >
       </span>
       <span class="file-name" v-if="file">
         {{ file.name }}
@@ -17,32 +21,32 @@
   </b-field>
 </template>
 
-<script lang="ts" >
-import { Component, Prop, Vue, Watch, Emit } from "vue-property-decorator";
-import Tooltip from "@/components/shared/Tooltip.vue";
+<script lang="ts">
+import { Component, Prop, Vue, Watch, Emit } from 'vue-property-decorator';
+import Tooltip from '@/components/shared/Tooltip.vue';
 
 @Component({
   components: {
-    Tooltip,
-  },
+    Tooltip
+  }
 })
 export default class extends Vue {
-  @Prop({ default: "Choose File" }) public label!: string;
-  @Prop({ default: "file-image" }) public icon!: string;
+  @Prop({ default: 'Choose File' }) public label!: string;
+  @Prop({ default: 'file-image' }) public icon!: string;
   private file: Blob | null = null;
 
-  @Watch("file")
+  @Watch('file')
   public createInput(file: Blob): void {
     const reader = new FileReader();
     reader.onload = () => {
       // this.handleSelection(reader.result)
       // console.log(reader.result);
     };
-    this.$emit("input", file);
+    this.$emit('input', file);
     reader.readAsText(file);
   }
 
-  @Emit("change")
+  @Emit('change')
   public handleSelection(value: string | ArrayBuffer | null) {
     return value;
   }
@@ -55,5 +59,4 @@ export default class extends Vue {
   position: absolute;
   left: 10px;
 }
-
 </style>
