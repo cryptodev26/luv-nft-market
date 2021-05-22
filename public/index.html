@@ -11,7 +11,10 @@
       content="The NFT Marketplace to buy and sell what you LUV"
       name="description"
     />
-    <meta name="google-site-verification" content="TG6-mHEXtAxgAyPeLsBX2r7mUb2pNyg03mzlzs91bCg" />
+    <meta
+      name="google-site-verification"
+      content="TG6-mHEXtAxgAyPeLsBX2r7mUb2pNyg03mzlzs91bCg"
+    />
 
     <meta content="LUV NFT Marketplace" property="og:title" />
     <meta
@@ -37,9 +40,7 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <link href="<%= BASE_URL %>homepage.css" rel="stylesheet" type="text/css" />
 
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script type="text/javascript">
       !(function(o, c) {
@@ -50,6 +51,20 @@
             (o.DocumentTouch && c instanceof DocumentTouch)) &&
             (n.className += t + "touch");
       })(window, document);
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-184242667-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-184242667-2");
     </script>
 
     <link
@@ -134,8 +149,8 @@
           var s = document.createElement("script");
           s.type = "text/javascript";
           // s.src =
-            // "https://assets.website-files.com/605a8ad8853d7fc62334c73e/js/webflow.c8b72a00c.js";
-          s.src="/js/webflow.c8b72a0c.js"
+          // "https://assets.website-files.com/605a8ad8853d7fc62334c73e/js/webflow.c8b72a00c.js";
+          s.src = "/js/webflow.c8b72a0c.js";
           $("head").append(s);
         }, 20);
         // location.reload(true);
@@ -150,6 +165,5 @@
         </h1>
       </div> -->
     </div>
-
   </body>
 </html>
